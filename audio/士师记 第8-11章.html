@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>士师记 第八章：疲乏中的追赶与胜利后的网罗</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root { 
+    --bg-color: #F7F5F0; 
+    --text-color: #2b2b2b; 
+    --accent-color: #8B3A3A; 
+    --accent-light: #F2E6E6; 
+    --secondary-text: #666055; 
+    --scripture-bg: #FFFFFF; 
+    --scripture-border: #D8D0C5;
+    --meditation-bg: #F4F4F4; 
+    --meditation-text: #555;
+    --font-main: 'Noto Serif SC', 'Songti SC', serif; 
+    --font-sans: 'Noto Sans SC', sans-serif; 
+}
+
+body { 
+    background-color: var(--bg-color); 
+    color: var(--text-color); 
+    font-family: var(--font-main); 
+    line-height: 2.3; 
+    font-size: 21px; 
+    margin: 0; 
+    padding: 0; 
+    background-image: linear-gradient(#F7F5F0 1px, transparent 1px), linear-gradient(90deg, #F7F5F0 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.container { 
+    max-width: 900px; 
+    margin: 80px auto; 
+    padding: 70px 60px; 
+    background-color: #fff;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+    border-radius: 2px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 90px;
+    border-bottom: 3px solid var(--accent-color);
+    padding-bottom: 50px;
+}
+
+h1 { 
+    font-family: var(--font-main); 
+    font-size: 3.4rem; 
+    font-weight: 900; 
+    margin-bottom: 1.2rem; 
+    color: #1a1a1a; 
+    letter-spacing: -1.5px; 
+    line-height: 1.1;
+}
+
+.subtitle { 
+    font-family: var(--font-sans); 
+    font-size: 1.4rem; 
+    color: var(--accent-color); 
+    letter-spacing: 4px; 
+    text-transform: uppercase; 
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+h2 { 
+    font-family: var(--font-sans); 
+    font-size: 1.6rem; 
+    font-weight: 700; 
+    margin-top: 6rem; 
+    margin-bottom: 3rem; 
+    color: #000;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+h3 { 
+    font-family: var(--font-main); 
+    font-size: 1.45rem; 
+    font-weight: 700; 
+    margin-top: 4.5rem; 
+    margin-bottom: 2rem; 
+    color: #333; 
+    border-left: 5px solid var(--accent-color);
+    padding-left: 20px;
+}
+
+.scripture-box { 
+    background-color: var(--scripture-bg); 
+    padding: 40px 45px; 
+    margin: 45px -30px 40px -30px; 
+    border-top: 1px solid var(--scripture-border);
+    border-bottom: 1px solid var(--scripture-border);
+    font-family: var(--font-main); 
+    font-size: 1.08em; 
+    color: #4a4a4a; 
+    line-height: 2.1; 
+    text-align: justify; 
+}
+
+.exegesis-title {
+    font-family: var(--font-sans);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-top: 30px;
+    margin-bottom: 25px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    border-bottom: 2px solid #e0d0b0;
+    padding-bottom: 3px;
+}
+
+p {
+    margin-bottom: 2rem;
+    text-align: justify;
+    color: #2c2c2c;
+    text-indent: 2em; 
+}
+
+strong {
+    color: var(--accent-color);
+    font-weight: 700;
+}
+
+.meditation-block { 
+    background-color: var(--meditation-bg); 
+    padding: 35px 45px; 
+    margin: 50px 0; 
+    font-family: var(--font-main);
+    color: var(--meditation-text);
+    font-style: italic;
+    border-left: 4px solid #ccc;
+}
+
+.meditation-header { 
+    font-family: var(--font-sans); 
+    font-size: 0.95rem; 
+    font-weight: 700; 
+    color: #777; 
+    text-transform: uppercase; 
+    letter-spacing: 2.5px; 
+    display: block; 
+    margin-bottom: 15px;
+    text-indent: 0;
+}
+
+.qa-box { 
+    background-color: #fffaf5; 
+    border: 1px solid #efe5d5;
+    border-left: 5px solid #c2b299; 
+    padding: 40px; 
+    margin: 50px 0; 
+}
+
+.qa-title { 
+    font-family: var(--font-sans); 
+    font-weight: 700; 
+    color: var(--accent-color); 
+    margin-bottom: 20px; 
+    font-size: 1.2em; 
+    text-indent: 0;
+}
+
+.disclaimer { 
+    font-size: 12px; 
+    color: #aaa; 
+    text-align: center; 
+    margin-bottom: 80px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.footer { 
+    margin-top: 120px; 
+    padding-top: 50px; 
+    border-top: 1px solid #eee; 
+    font-family: var(--font-main); 
+    font-size: 1.25rem; 
+    color: var(--accent-color); 
+    text-align: center; 
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+@media (max-width: 600px) { 
+    .container { padding: 40px 25px; margin: 0; width: 100%; box-sizing: border-box;} 
+    h1 { font-size: 2.4rem; } 
+    body { font-size: 19px; } 
+    .scripture-box { margin: 30px 0; padding: 25px; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="disclaimer">
+        基于中文和合本圣经 · 改革宗神学视角 · AI 辅助生成
+    </div>
+
+    <header>
+        <h1>士师记 第八章</h1>
+        <div class="subtitle">疲乏中的追赶与胜利后的网罗</div>
+    </header>
+
+    <h2>一、上下文关联：从神迹的高峰到人性的低谷</h2>
+    <p>
+        在士师记第7章，我们见证了那个激动人心的“耶和华和基甸的刀”的时刻，三百勇士在神的超自然干预下击溃了如蝗虫般的米甸大军。那是一个信仰的高峰。然而，进入第8章，随着战事的扫尾，战场的硝烟尚未散去，人性的硝烟却开始弥漫。
+    </p>
+    <p>
+        这一章展示了“得胜之后”的巨大危机。外敌虽败，内忧却起。基甸的形象开始发生微妙而致命的转变：他从一个在酒榨中谦卑寻求神印证的“至微小者”，逐渐演变成一个精明的政治家、残酷的复仇者，最后甚至成为了制造偶像的始作俑者。本章深刻揭示了：对于属灵领袖而言，最大的考验往往不在于患难中的争战，而在于成功后的持守。
+    </p>
+
+    <h2>二、逐段精解：荣耀与阴影的交织</h2>
+
+    <!-- 第一段 -->
+    <h3>1. 内部的纷争与疲乏的追赶 (士师记8章1-9节)</h3>
+
+    <div class="scripture-box">
+        以法莲人对基甸说：“你去与米甸人争战，没有招我们同去，为什么这样待我们呢？”他们就与基甸大大地争吵。基甸对他们说：“我所行的岂能比你们所行的呢？以法莲拾取剩下的葡萄，不强过亚比以谢所摘的葡萄吗？　神已将米甸人的两个首领俄立和西伊伯交在你们手中；我所行的，岂能比你们所行的呢？”基甸说了这话，以法莲人的怒气就消了。基甸和跟随他的三百人到约旦河过渡，虽然疲乏，还是追赶。基甸对疏割人说：“求你们拿饼来给跟随我的人吃，因为他们疲乏了。我们追赶米甸人的两个王西巴和撒慕拿。”疏割人的首领回答说：“西巴和撒慕拿已经在你手里，你使我们将饼给你的军兵吗？”基甸说：“耶和华将西巴和撒慕拿交在我手之后，我就用野地的荆条和枳棘打伤你们。”基甸从那里上到毗努伊勒，对那里的人也是这样说；毗努伊勒人也与疏割人回答他的话一样。他向毗努伊勒人说：“我平平安安回来的时候，我必拆毁这楼。”
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>以法莲的嫉妒与基甸的外交辞令：</strong> 以法莲作为北方的强势支派，一向以长子自居。当他们看到来自较弱支派玛拿西的基甸取得了巨大胜利，他们的第一反应不是为神的工作欢呼，而是感到被冒犯——“为什么没有招我们同去？” 这暴露了人性的丑陋：在神的国度里争夺荣耀和地位。面对这场可能引发内战的危机，基甸展现了极高的情商。他引用箴言般的智慧“回答柔和，使怒消退”，用“以法莲拾取剩下的葡萄强过亚比以谢所摘的”这一比喻，极力抬高对方，贬低自己。这种谦卑虽然平息了怒气，但也显出基甸开始运用政治手腕来处理属灵关系。他虽然赢得了和平，但这种和平是建立在安抚人的骄傲之上的。
+    </p>
+    <p>
+        <strong>虽然疲乏，还是追赶：</strong> 这是属灵争战中极具张力的一幕。基甸和三百勇士在体能透支的情况下，依然坚持追击残敌。这象征了圣徒的坚忍——在极度软弱中靠主刚强，为了完成神的托付而不轻言放弃。
+    </p>
+    <p>
+        <strong>同胞的冷漠与基甸的怒誓：</strong> 相比于以法莲的热心（虽然是嫉妒），约旦河东的疏割和毗努伊勒人表现出的则是彻头彻尾的冷漠与不信。他们拒绝给疲乏的弟兄提供哪怕是“饼”这样基本的补给，理由是“西巴和撒慕拿已经在你手里吗？” 这是一种典型的“现实主义”嘲讽：他们不相信神能藉着这三百人彻底得胜，他们害怕一旦帮助了基甸会招致米甸人的报复。面对这种背叛，基甸没有像对以法莲那样柔和，而是发出了严厉的复仇誓言。这显示了基甸性格中的阴暗面正在浮现：他对维护自己尊严的以法莲人可以忍让，但对挑战他权威和能力的疏割人却充满了杀气。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        你是那个“疲乏还是追赶”的勇士，还是那个冷漠嘲讽的疏割人？在教会中，当弟兄姊妹在属灵争战的前线精疲力竭时，我们是递上一块饼，还是泼上一盆冷水？疏割人的逻辑是“看见才相信”，但信心的逻辑是“未见而信”。不要因为惧怕环境，而失去了对弟兄的爱心和对神的忠诚。同时，我们也要警惕像以法莲那样的属灵骄傲，不要在别人的得胜中寻找自己的存在感。
+    </div>
+
+    <!-- 第二段 -->
+    <h3>2. 复仇的执行与私欲的显露 (士师记8章10-21节)</h3>
+
+    <div class="scripture-box">
+        那时，西巴和撒慕拿并跟随他们的军队，都在加各，约有一万五千人，就是东方人全军所剩下的；已经被杀约有十二万拿刀的。基甸就由挪巴和约比哈东边，从住帐棚人的路上去，杀败了米甸人的军兵，因为他们坦然无惧。西巴和撒慕拿逃跑，基甸追赶他们，捉住米甸的二王西巴和撒慕拿，惊散全军。约阿施的儿子基甸，由希列斯坡从阵上回来，捉住疏割的一个少年人，问他：“疏割的首领长老是谁？”他就将首领长老七十七个人的名字写出来。基甸到了疏割，对那里的人说：“你们从前讥诮我说：‘西巴和撒慕拿已经在你手里，你使我们将饼给跟随你的疲乏人吗？’现在西巴和撒慕拿在这里。”于是捉住那城内的长老，用野地的荆条和枳棘责打（原文作“指教”）疏割人。又拆了毗努伊勒的楼，杀了那城里的人。基甸问西巴和撒慕拿说：“你们在他泊山所杀的人是什么样式？”回答说：“他们好像你，各人都有王子的样式。”基甸说：“他们是我同母的弟兄。我指着永生的耶和华起誓，你们从前若存留他们的性命，我如今就不杀你们了。”于是对他的长子益帖说：“你起来杀他们。”但益帖因为是童子，害怕不敢拔刀。西巴和撒慕拿说：“你自己起来杀我们吧，因为人如何，力量也是如何。”基甸就起来，杀了西巴和撒慕拿，夺获他们骆驼项上戴的月牙圈。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>出其不意的突袭：</strong> 米甸残军以为逃到了沙漠边缘就安全了，“坦然无惧”地安营扎寨。基甸却绕道偏僻的“住帐棚人的路”，发动了致命的突袭。这教导我们，彻底的得胜往往需要付出额外的代价，在敌人最意想不到的时候给予最后一击。罪恶（米甸人）若不斩草除根，终必成为后患。
+    </p>
+    <p>
+        <strong>残酷的清算：</strong> 凯旋归来的基甸，立刻执行了他对疏割和毗努伊勒的诅咒。他像审判官一样，捉住少年人拷问名单，然后对长老施行了极刑（用荆条责打，甚至可能致死），并屠杀了毗努伊勒的居民。虽然疏割人有罪，但基甸的手段过于残忍，且带有强烈的个人报复色彩。他拆毁了毗努伊勒的“楼”（保障），这似乎在暗示：凡不依靠我的保障，我就拆毁你们的保障。此时的基甸，已经从神的仆人变成了可怕的独裁者。
+    </p>
+    <p>
+        <strong>私人恩怨的揭露：</strong> 第18-19节的对话揭示了基甸穷追不舍的一个重要动机：复仇。原来米甸二王曾杀了基甸的亲兄弟。基甸对他俩说：“你们若存留他们的性命，我如今就不杀你们了。” 这话令人不安，因为它暗示基甸的杀戮是基于<strong>私人恩怨（报血仇）</strong>，而非完全基于神的圣战命令。他试图让年轻的长子益帖行刑，是为了羞辱敌王，也是为了确立家族的威信。基甸亲自杀死二王并夺取像征王权的月牙圈，这一刻，他在众人眼中已然是王。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        我们的事奉动机是否纯洁？是为了神的荣耀，还是为了解决私人的恩怨、证明自己的价值？基甸虽然完成了神的任务（击败米甸），但他的动机掺杂了血气。胜利比失败更考验人的品格。当我们在事奉上取得成就时，是选择宽恕异己，还是选择报复？权柄是用来造就人，不是用来败坏人。
+    </div>
+
+    <!-- 第三段 -->
+    <h3>3. 王权的试探与以弗得的网罗 (士师记8章22-27节)</h3>
+
+    <div class="scripture-box">
+        以色列人对基甸说：“你既救我们脱离米甸人的手，愿你和你的儿孙管理我们。”基甸说：“我不管理你们，我的儿子也不管理你们，惟有耶和华管理你们。”基甸又对他们说：“我有一件事求你们：请你们各人将所夺的耳环给我。”原来仇敌是以实玛利人，都是戴金耳环的。他们说：“我们情愿给你。”就铺开一件外衣，各人将所夺的耳环丢在其上。基甸所要出来的金耳环，重一千七百舍客勒金子。此外还有米甸王所戴的月环、耳坠，和所穿的紫色衣服，并骆驼项上的金链子。基甸以此制造了一个以弗得，设立在本城俄弗拉，后来以色列人拜那以弗得行了邪淫。这就作了基甸和他全家的网罗。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>神学正确与实际背离：</strong> 以色列人正式请求基甸建立世袭王朝（“愿你和你的儿孙管理我们”），这是对神权政治的厌弃。基甸的回答在神学上无懈可击：“惟有耶和华管理你们。” 这是一个完美的标准答案。然而，他接下来的行动却彻底背叛了他的宣言。
+    </p>
+    <p>
+        <strong>金耳环与变质的以弗得：</strong> 基甸拒绝了王的名号，却索要了王的权利（纳税/战利品）。他收集了巨量的金子（约20公斤），制造了一个“以弗得”。以弗得本是大祭司的圣衣，用来求问神。基甸制造它，可能是为了在本城俄弗拉建立一个与之抗衡示罗的宗教中心，或者以此作为他与神沟通的凭据，以此来巩固他在支派中的领导地位。这是一种<strong>宗教上的僭越</strong>。
+    </p>
+    <p>
+        <strong>好东西变成坏网罗：</strong> 这是一个悲剧性的错误。这个原本可能出于“属灵目的”（纪念胜利或寻求神）制作的物品，迅速演变成了偶像。以色列人“拜那以弗得行了邪淫”（指属灵的淫乱）。基甸虽然拆毁了巴力的坛（第6章），现在却亲手为以色列人制造了新的偶像。他拒绝做政治上的王，却实际上充当了宗教上的教皇。这个以弗得成为了他和他全家的网罗，最终导致了家族的灭亡。这警示我们：任何取代神位置的“属灵事物”，最终都会成为偶像。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        这是属灵伟人最容易跌倒的地方：用“属灵”的名义制造偶像。我们是否也会把过去的得胜经验、某种属灵的恩赐、或是教会的传统（像以弗得一样）高举到一个地步，以至于它取代了神的位置？基甸晚年的失败警示我们：善始容易，善终难。我们要警惕那些披着属灵外衣的私欲。
+    </div>
+
+    <!-- 第四段 -->
+    <h3>4. 晚年的放纵与死后的背道 (士师记8章28-35节)</h3>
+
+    <div class="scripture-box">
+        这样，米甸人被以色列人制伏了，不敢再抬头。基甸还在的日子，国中太平四十年。约阿施的儿子耶路巴力回去，住在自己家里。基甸有七十个亲生的儿子，因为他有许多的妻。他的妾住在示剑，也给他生了一个儿子。基甸与他起名叫亚比米勒。约阿施的儿子基甸，年纪老迈而死，葬在亚比以谢族的俄弗拉，在他父亲约阿施的坟墓里。基甸死后，以色列人又去随从诸巴力行邪淫，以巴力比利土为他们的神。以色列人不记念耶和华他们的　神，就是拯救他们脱离四围仇敌之手的；也不照着耶路巴力，就是基甸向他们所施的恩惠，厚待他的家。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>像王一样的生活：</strong> 经文描述基甸“有许多的妻”、“七十个儿子”。在古代，多妻多子是君王权势的象征。更讽刺的是，他给妾生的儿子起名叫“亚比米勒”，意思是“我的父亲是王”。这彻底暴露了基甸的内心：嘴上说“耶和华管理你们”，心里却认为“我就是王”。这种心口不一的伪善，比公开的称王更具破坏力。他的生活方式完全违背了申命记17章对君王“不可多立妃嫔”的禁令。
+    </p>
+    <p>
+        <strong>瞬间的遗忘与背道：</strong> “基甸死后，以色列人又去……”。这个“又”字令人绝望。只要强有力的领袖一死，百姓立刻回到偶像的怀抱。他们立“巴力比利土”（立约之主）为神，这是对耶和华盟约的公然嘲讽。他们不仅忘记了神，也忘记了人（基甸的恩惠）。这证明了依靠人治（士师）无法带来长久的复兴。人心的败坏是如此根深蒂固，恩典若不持续更新，人立刻就会堕落。基甸家族的悲剧（第9章）在此埋下了伏笔。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        基甸的一生以信心开始，以妥协结束；以拆毁偶像开始，以制造偶像结束。这让我们看到，即使是被神重用的人，若不持续警醒，也会晚节不保。同时，以色列人的背道提醒我们：感恩的心是维系信仰的关键。当我们“不记念”神的拯救时，离弃神就是一步之遥。求主保守我们，直到见主面的日子。
+    </div>
+
+    <h2>三、本章的中心思想</h2>
+    <p>
+        士师记第8章揭示了<strong>“属灵胜利后的危机与人性的败坏”</strong>。它展示了神如何通过软弱的器皿（三百人）成就极大的拯救，但也无情地揭露了这器皿本身的裂痕。基甸在得胜后表现出的骄傲、报复心、贪财（金耳环）和权力欲（多妻），以及制造以弗得的属灵盲目，不仅玷污了他自己的见证，更为以色列人埋下了祸根。这章经文大声疾呼：人无法依靠自己的德行守住神的祝福，唯有神那不改变的恩典，才是我们在失败循环中唯一的盼望。
+    </p>
+
+    <h2>四、我们与主相遇</h2>
+    <p>
+        <strong>这位神是怎样的神？</strong>
+        祂是<strong>赐得胜的神</strong>，使三百人胜过十几万大军，显明得胜不在乎人多。祂是<strong>忍耐的神</strong>，即便在基甸显露血气和私欲时，仍容许他以此终老，并赐下四十年太平，显明祂对器皿的宽容。祂也是<strong>察验人心的神</strong>，祂如实记录了基甸的失败，以此教导我们不要崇拜任何人，单单敬畏祂。
+    </p>
+    <p>
+        <strong>这章经文如何指向基督？</strong>
+        基甸说“耶和华管理你们”，但他自己做不到；耶稣基督是真正落实神权统治的君王，祂说“我的国不属这世界”，并身体力行了顺服。基甸制造的以弗得成了网罗；基督自己就是那真正的“以弗得”（大祭司），借着祂，我们能无阻隔地来到父面前，且永不跌倒。基甸向同胞报复；基督却为钉祂的人祷告。基甸是不完美的救主，指向了那位完美的救主。
+    </p>
+
+    <h2>五、作者对原初读者的信息</h2>
+    <p>
+        对于在王国时期或被掳时期的以色列读者，这一章解释了为什么士师时代最终会失败，以及为什么甚至像基甸这样的英雄也没能挽救局势。作者在警告他们：不要迷信领袖，因为领袖也会腐败；不要在安逸中忘记神，因为安逸比战争更考验信仰。真正的王权不属于基甸或任何人类君王，而属于耶和华。这呼吁他们回归对神独一主权的顺服，并以此警惕心中的偶像。
+    </p>
+
+    <h2>六、今日生命应用</h2>
+    <p>
+        <strong>1. 警惕“成功后”的试探：</strong>
+        许多人在患难中能站立得住，却在成功时跌倒。当你事奉有果效、事业有成就时，要加倍小心心中的骄傲、贪婪和权力欲。不要让神的祝福成为你的网罗。
+    </p>
+    <p>
+        <strong>2. 拒绝“属灵”的偶像：</strong>
+        检查你的生活，是否有一些曾经帮助过你的属灵经历、习惯、甚至神学观念，现在变成了你敬拜的对象（以弗得），取代了与神活泼的关系？好东西如果被放错了位置，就会变成最坏的网罗。
+    </p>
+    <p>
+        <strong>3. 坚持“虽疲乏仍追赶”：</strong>
+        在跟随主的道路上，疲乏是常态，但放弃不是选项。效法基甸那“追赶”的坚韧，依靠神赐的力量，完成神托付你的使命，直到彻底得胜。同时，也要警惕在疲乏中产生的血气和报复心，保持清洁的心。
+    </p>
+
+    <div class="footer">
+        Soli Deo Gloria | 唯独荣耀归给神
+    </div>
+
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>士师记 第九章：荆棘王的火焰与神公义的报应</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root { 
+    --bg-color: #F7F5F0; 
+    --text-color: #2b2b2b; 
+    --accent-color: #8B3A3A; 
+    --accent-light: #F2E6E6; 
+    --secondary-text: #666055; 
+    --scripture-bg: #FFFFFF; 
+    --scripture-border: #D8D0C5;
+    --meditation-bg: #F4F4F4; 
+    --meditation-text: #555;
+    --font-main: 'Noto Serif SC', 'Songti SC', serif; 
+    --font-sans: 'Noto Sans SC', sans-serif; 
+}
+
+body { 
+    background-color: var(--bg-color); 
+    color: var(--text-color); 
+    font-family: var(--font-main); 
+    line-height: 2.3; 
+    font-size: 21px; 
+    margin: 0; 
+    padding: 0; 
+    background-image: linear-gradient(#F7F5F0 1px, transparent 1px), linear-gradient(90deg, #F7F5F0 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.container { 
+    max-width: 900px; 
+    margin: 80px auto; 
+    padding: 70px 60px; 
+    background-color: #fff;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+    border-radius: 2px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 90px;
+    border-bottom: 3px solid var(--accent-color);
+    padding-bottom: 50px;
+}
+
+h1 { 
+    font-family: var(--font-main); 
+    font-size: 3.4rem; 
+    font-weight: 900; 
+    margin-bottom: 1.2rem; 
+    color: #1a1a1a; 
+    letter-spacing: -1.5px; 
+    line-height: 1.1;
+}
+
+.subtitle { 
+    font-family: var(--font-sans); 
+    font-size: 1.4rem; 
+    color: var(--accent-color); 
+    letter-spacing: 4px; 
+    text-transform: uppercase; 
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+h2 { 
+    font-family: var(--font-sans); 
+    font-size: 1.6rem; 
+    font-weight: 700; 
+    margin-top: 6rem; 
+    margin-bottom: 3rem; 
+    color: #000;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+h3 { 
+    font-family: var(--font-main); 
+    font-size: 1.45rem; 
+    font-weight: 700; 
+    margin-top: 4.5rem; 
+    margin-bottom: 2rem; 
+    color: #333; 
+    border-left: 5px solid var(--accent-color);
+    padding-left: 20px;
+}
+
+.scripture-box { 
+    background-color: var(--scripture-bg); 
+    padding: 40px 45px; 
+    margin: 45px -30px 40px -30px; 
+    border-top: 1px solid var(--scripture-border);
+    border-bottom: 1px solid var(--scripture-border);
+    font-family: var(--font-main); 
+    font-size: 1.08em; 
+    color: #4a4a4a; 
+    line-height: 2.1; 
+    text-align: justify; 
+}
+
+.exegesis-title {
+    font-family: var(--font-sans);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-top: 30px;
+    margin-bottom: 25px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    border-bottom: 2px solid #e0d0b0;
+    padding-bottom: 3px;
+}
+
+p {
+    margin-bottom: 2rem;
+    text-align: justify;
+    color: #2c2c2c;
+    text-indent: 2em; 
+}
+
+strong {
+    color: var(--accent-color);
+    font-weight: 700;
+}
+
+.meditation-block { 
+    background-color: var(--meditation-bg); 
+    padding: 35px 45px; 
+    margin: 50px 0; 
+    font-family: var(--font-main);
+    color: var(--meditation-text);
+    font-style: italic;
+    border-left: 4px solid #ccc;
+}
+
+.meditation-header { 
+    font-family: var(--font-sans); 
+    font-size: 0.95rem; 
+    font-weight: 700; 
+    color: #777; 
+    text-transform: uppercase; 
+    letter-spacing: 2.5px; 
+    display: block; 
+    margin-bottom: 15px;
+    text-indent: 0;
+}
+
+.qa-box { 
+    background-color: #fffaf5; 
+    border: 1px solid #efe5d5;
+    border-left: 5px solid #c2b299; 
+    padding: 40px; 
+    margin: 50px 0; 
+}
+
+.qa-title { 
+    font-family: var(--font-sans); 
+    font-weight: 700; 
+    color: var(--accent-color); 
+    margin-bottom: 20px; 
+    font-size: 1.2em; 
+    text-indent: 0;
+}
+
+.disclaimer { 
+    font-size: 12px; 
+    color: #aaa; 
+    text-align: center; 
+    margin-bottom: 80px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.footer { 
+    margin-top: 120px; 
+    padding-top: 50px; 
+    border-top: 1px solid #eee; 
+    font-family: var(--font-main); 
+    font-size: 1.25rem; 
+    color: var(--accent-color); 
+    text-align: center; 
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+@media (max-width: 600px) { 
+    .container { padding: 40px 25px; margin: 0; width: 100%; box-sizing: border-box;} 
+    h1 { font-size: 2.4rem; } 
+    body { font-size: 19px; } 
+    .scripture-box { margin: 30px 0; padding: 25px; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="disclaimer">
+        基于中文和合本圣经 · 改革宗神学视角 · AI 辅助生成
+    </div>
+
+    <header>
+        <h1>士师记 第九章</h1>
+        <div class="subtitle">荆棘王的火焰与神公义的报应</div>
+    </header>
+
+    <h2>一、上下文关联：从隐藏的私欲到公开的罪恶</h2>
+    <p>
+        士师记第9章是基甸叙事的悲剧性终章，也是全书中最为黑暗、血腥的篇章之一。在第8章，基甸虽然口头上神学正确地拒绝了为王（“惟有耶和华管理你们”），但他实际的生活方式——多妻、生七十子、收集金耳环制造以弗得——却在实质上种下了君王崇拜和偶像崇拜的种子。特别是他给妾生的儿子起名“亚比米勒”（意为“我父是王”），更是赤裸裸地暴露了他内心深处对王权的渴望。
+    </p>
+    <p>
+        这种隐藏在“属灵英雄”外衣下的私欲，在第二代身上爆发为公开的、毁灭性的罪恶。亚比米勒作为士师记中唯一的“反士师”，他不是神兴起拯救以色列脱离外敌的领袖，而是靠阴谋、金钱和暴力上台的篡位者。他没有拯救以色列，反而屠杀同胞。这一章不仅是对基甸晚年失败的盖棺定论，更是对以色列人离弃神、寻求世俗王权（想要像列国一样）的严厉审判。神通过这章经文向我们展示：当人试图在神之外建立国度时，那个国度必然建立在血腥之上，并最终被自身发出的火所吞灭。
+    </p>
+
+    <h2>二、逐段精解：荆棘作王的悲剧与审判</h2>
+
+    <!-- 第一段 -->
+    <h3>1. 篡位与屠杀：荆棘王的崛起 (士师记9章1-6节)</h3>
+
+    <div class="scripture-box">
+        耶路巴力的儿子亚比米勒，到了示剑见他的众母舅，对他们和他外祖全家的人说：“请你们问示剑的众人说，是耶路巴力的众子七十人都管理你们好呢？还是一人管理你们好呢？你们又要记念我是你们的骨肉。”他的众母舅便将这一切话，为他说给示剑人听。示剑人的心就归向亚比米勒。他们说：“他原是我们的弟兄。”就从巴力比利土的庙中取了七十舍客勒银子给亚比米勒，亚比米勒用以雇了些匪徒跟随他。他往俄弗拉到他父亲的家，将他弟兄耶路巴力的众子七十人，都杀在一块磐石上，只剩下耶路巴力的小儿子约坦，因为他躲藏了。示剑人和米罗人都一同聚集，往示剑橡树旁的柱子那里，立亚比米勒为王。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>血缘政治与偶像庙宇的资助：</strong> 亚比米勒的夺权之路充满了世俗政治的算计与操控。他来到示剑，这是他母亲（基甸的妾）的家乡，也是迦南人与以色列人混居的中心。他利用“骨肉之亲”的血缘关系进行煽动，这与神的拣选毫无关系，纯粹是出于肉体的利益共同体。示剑人的心“归向”（原文意为倾斜）他，不是因为他有德行或恩赐，仅仅因为他是“自己人”。这种狭隘的部落主义是许多政治灾难的根源。更具讽刺意味的是，亚比米勒的启动资金来自“巴力比利土的庙”。巴力比利土意为“立约之主”，这是以色列人将巴力与耶和华混同的产物。这七十舍客勒银子是偶像的供物，被用来雇佣“匪徒”（原文指无业游民、轻浮之人）。一个靠偶像资助、靠流氓拥护的政权，从一开始就注定了其邪恶的本质。
+    </p>
+    <p>
+        <strong>一块磐石上的屠杀：</strong> 亚比米勒为了消除潜在的竞争对手，在俄弗拉将他同父异母的七十个兄弟“杀在一块磐石上”。这不仅是一场政治清洗，更像是一场献祭仪式。在古代，磐石常被用作祭坛。亚比米勒似乎是在向巴力献祭，用兄弟的血来祭旗，以确立他的统治合法性。这种残忍不仅违背了律法（不可杀人），更彻底践踏了人伦。七十个兄弟的血，如亚伯的血一样，从地里向神哀告。基甸晚年种下的多妻恶果，如今以这种惨烈的方式收割——他的家族几乎被灭绝。这也应验了神对罪恶家族的审判，虽然借着恶人之手，但神的公义从未缺席。
+    </p>
+    <p>
+        <strong>示剑立王的讽刺：</strong> 示剑人和米罗人在“示剑橡树旁的柱子”那里立亚比米勒为王。这个地点具有极深的反讽意味。这里正是当年约书亚与百姓立约、立石为证的地方（约书亚记24章26节）。在同一个地方，曾经是立约侍奉耶和华的圣地，现在却成了立篡位者为王的场所；曾经是宣誓“断不敢离弃耶和华”的地方，现在却成了偶像崇拜者加冕的舞台。这种对神圣地点的亵渎，预示了这个王朝必不长久。以色列人想要一个王，神就任凭他们立一个王，但这个王将成为他们的噩梦。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        亚比米勒的崛起是依靠“肉体关系”（骨肉之亲）、“金钱”（庙里的银子）和“暴力”（匪徒）。这也常是世俗成功的“三件套”。作为基督徒，我们是否在教会或职场中也试图依靠拉帮结派、金钱开路或打压异己来上位？任何不基于神呼召、不通过正当途径获得的权柄，最终都会成为审判自己的“一块磐石”。求主保守我们的心，单单寻求祂的国和祂的义。
+    </div>
+
+    <!-- 第二段 -->
+    <h3>2. 约坦的寓言：真假王权的试金石 (士师记9章7-21节)</h3>
+
+    <div class="scripture-box">
+        有人将这事告诉约坦，他就去站在基利心山顶上，向众人大声喊叫说：“示剑人哪，你们要听我的话，　神也就听你们的话。有一时树木要膏一树为王，管理他们，就去对橄榄树说：‘请你作我们的王。’橄榄树回答说：‘我岂肯止住供奉　神和尊重人的油，飘摇在众树之上呢？’树木对无花果树说：‘请你来作我们的王。’无花果树回答说：‘我岂肯止住所结甜美的果子，飘摇在众树之上呢？’树木对葡萄树说：‘请你来作我们的王。’葡萄树回答说：‘我岂肯止住使　神和人喜乐的新酒，飘摇在众树之上呢？’众树对荆棘说：‘请你来作我们的王。’荆棘回答说：‘你们若诚诚实实地膏我为王，就要投在我的荫下，不然愿火从荆棘里出来，烧灭黎巴嫩的香柏树。’“现在你们立亚比米勒为王，若按诚实正直善待耶路巴力和他的全家，这就是酬他的劳。从前我父冒死为你们争战，救了你们脱离米甸人的手。你们如今起来攻击我的父家，将他众子七十人杀在一块磐石上，又立他婢女所生的儿子亚比米勒为示剑人的王。他原是你们的弟兄。你们如今若按诚实正直待耶路巴力和他的家，就可因亚比米勒得欢乐，他也可因你们得欢乐。不然，愿火从亚比米勒发出，烧灭示剑人和米罗众人。又愿火从示剑人和米罗人中出来，烧灭亚比米勒。”约坦因怕他弟兄亚比米勒，就逃跑，来到比珥住在那里。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>最有价值的树拒绝作王：</strong> 幸存的小儿子约坦站在基利心山（祝福之山）上，向示剑人宣讲了一个深刻的寓言。橄榄树、无花果树、葡萄树代表了那些有生命力、有产出、能荣神益人的领袖。它们一致拒绝了王位，理由极其深刻：“我岂肯止住……飘摇在众树之上呢？” 在它们看来，履行神赋予的本职工作（产油、结果、酿酒）比拥有虚浮的政治权力（飘摇在众树之上）更重要。真正的领袖关注的是<strong>服事与贡献</strong>，而非<strong>地位与控制</strong>。这反映了神国度的价值观：大的要服事小的，权柄是为了造就人，而不是为了辖制人。
+    </p>
+    <p>
+        <strong>荆棘的野心与威胁：</strong> 既然好树都拒绝了，众树只好转向“荆棘”。荆棘是受咒诅的象征（创世记3章18节），它既不开花也不结果，甚至不能提供木材，唯一的“贡献”就是刺伤人和引发火灾。然而，正是这个最无用的荆棘，却欣然接受了王位，并立刻发出了威胁：“投在我的荫下……不然愿火出来。” 荆棘低矮，哪有荫凉可言？这是极大的讽刺。依靠荆棘寻求保护，只会招致刺痛；不顺从它，就会被火烧灭。这就是亚比米勒的写照：一个无德无能、只会带来毁灭的暴君。所有不以神为中心的政治权力，最终都像荆棘一样，既无益于人，又充满破坏性。
+    </p>
+    <p>
+        <strong>咒诅的预言与公义的呼声：</strong> 约坦将寓言应用在现实中。他质问示剑人是否“按诚实正直”行事。答案显而易见是否定的。他们背信弃义，忘记了基甸冒死争战的恩情，反而恩将仇报。因此，约坦发出了咒诅：愿火在亚比米勒和示剑人之间互烧。这不是个人的诅咒，而是基于盟约公义的预言。当人选择“荆棘”作王时，他们实际上选择了自我毁灭。这个咒诅成为了本章后续叙事的主线——神将使他们自相残杀，让罪恶吞噬罪恶。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        你是橄榄树还是荆棘？真正的价值在于能否结出圣灵的果子，供应神和人的需要。如果神呼召你在某个岗位，你是为了“飘摇在众树之上”（虚荣）而接受，还是为了“多结果子”（服事）？警惕那些像荆棘一样渴望权力却无实质贡献的人，更要警惕自己成为那样的人。真正的满足不在于地位的高低，而在于是否忠心于神的托付。
+    </div>
+
+    <!-- 第三段 -->
+    <h3>3. 神圣的报应：恶魔降临与自相残杀 (士师记9章22-49节)</h3>
+
+    <div class="scripture-box">
+        亚比米勒管理以色列人三年。　神使恶魔降在亚比米勒和示剑人中间，示剑人就以诡诈待亚比米勒。这是要叫耶路巴力七十个儿子所受的残害，归与他们的哥哥亚比米勒；又叫那流他们血的罪，归与帮助他杀弟兄的示剑人。示剑人在山顶上设埋伏，等候亚比米勒。凡从他们那里经过的人，他们就抢夺。有人将这事告诉亚比米勒。以别的儿子迦勒和他的弟兄来到示剑，示剑人都信靠他。示剑人出城到田间去，摘下葡萄，踹酒，设摆筵宴，进他们神的庙中吃喝，咒诅亚比米勒。以别的儿子迦勒说：“亚比米勒是谁，示剑是谁，使我们服侍他呢？他不是耶路巴力的儿子吗？他的帮手不是西布勒吗？你们可以服侍示剑的父亲哈抹的后裔。我们为何服侍亚比米勒呢？惟愿这民归我的手下，我就除掉亚比米勒。”迦勒又对亚比米勒说：“增添你的军兵出来吧！”邑宰西布勒听见以别的儿子迦勒的话，就发怒，悄悄地打发人去见亚比米勒，说：“以别的儿子迦勒和他的弟兄到了示剑，煽惑城中的民攻击你。现在你和跟随你的人今夜起来，在田间埋伏。到早晨太阳一出，你就起来闯城。迦勒和跟随他的人出来攻击你的时候，你便向他们见机而作。”于是亚比米勒和跟随他的众人夜间起来，分作四队，埋伏等候示剑人。以别的儿子迦勒出去，站在城门口。亚比米勒和跟随他的人，从埋伏之处起来。迦勒看见那些人，就对西布勒说：“看哪，有人从山顶上下来了。”西布勒说：“你看见山的影子，以为是人。”迦勒又说：“看哪，有人从高处下来，又有一队从米恶尼尼橡树的路上而来。”西布勒对他说：“你曾说，亚比米勒是谁，叫我们服侍他？你所夸的口在哪里呢？这不是你所藐视的民吗？你现在出去，与他们交战吧！”于是迦勒率领示剑人出去，与亚比米勒交战。亚比米勒追赶迦勒，迦勒在他面前逃跑，有许多受伤仆倒的，直到城门。亚比米勒住在亚鲁玛。西布勒赶出迦勒和他弟兄，不准他们住在示剑。次日，民出到田间，有人告诉亚比米勒。他就把他的人分作三队，埋伏在田间，看见示剑人从城里出来，就起来击杀他们。亚比米勒和跟随他的一队向前闯去，站在城门口；那两队直闯到田间，击杀了众人。亚比米勒整天攻打城，将城夺取，杀了其中的居民；将城拆毁，撒上了盐。示剑楼的人听见了，就躲入巴力比利土庙的卫所。有人告诉亚比米勒说：“示剑楼的人都聚在一处。”亚比米勒和跟随他的人就都上撒们山。亚比米勒手拿斧子，砍下一根树枝，扛在肩上，对跟随他的人说：“你们看我所行的，也当赶紧照样行。”众人就各砍一枝，跟随亚比米勒，把树枝堆在卫所的四围，放火烧了卫所。以致示剑楼的人都死了，男女约有一千。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>神主权的介入——恶魔的工作：</strong> “神使恶魔降在……”（原文作“神差遣一个恶灵”）。这不是说神是恶的源头，而是说神主权地使用灵界的即便是邪恶的力量，来执行祂的审判。亚比米勒统治了三年，这三年是神给他们的宽容期，但他们未曾悔改。现在，审判开始了。这个恶灵制造了分裂和猜忌。昔日用银子支持亚比米勒的示剑人，现在成了他的死敌。这是罪恶联盟的必然结局：因利而聚，必因利而散。没有真理基础的团结，在神的震动下必如散沙。
+    </p>
+    <p>
+        <strong>迦勒的煽动与西布勒的诡计：</strong> 示剑人找到了新的领袖迦勒（注意：非基甸时代的迦勒，这里是一个新的煽动者）。他们在庙中喝酒时咒诅亚比米勒，正如当年他们支持他一样随意。迦勒利用种族情绪（“哈抹的后裔”）煽动造反，试图恢复迦南人的旧秩序。然而，亚比米勒的邑宰西布勒是个深藏不露的阴谋家，他两面三刀，表面敷衍迦勒，暗中通报亚比米勒，并引诱亚比米勒夜间设伏。这一段充满了政治斗争的丑陋：背叛、谎言、伏击。神任凭恶人吞咬恶人，借此彰显祂的公义。
+    </p>
+    <p>
+        <strong>火烧示剑楼与咒诅的应验：</strong> 战斗的结局极其惨烈。亚比米勒不仅击败了迦勒，还对示剑城进行了屠城，并“撒上了盐”（象征永远荒废）。随后，躲在巴力庙卫所里的一千男女，被亚比米勒用树枝放火烧死。这一幕精准地应验了约坦的咒诅：“愿火从亚比米勒发出，烧灭示剑人”。那曾经资助亚比米勒七十舍客勒银子的庙宇，现在成了示剑人的坟墓。他们当初选择荆棘作王，现在真的被荆棘发出的火吞灭了。神是轻慢不得的，祂的话语一句也不会落空。示剑人的结局是对所有背信弃义者的严厉警告。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        罪恶的联盟看似强大，实则极其脆弱，因为其中没有信实，只有利益。当神的时间一到，只需“一个恶灵”，就能让他们自相残杀。不要羡慕恶人的亨通，也不要参与恶人的计谋。要确信，神在历史中掌权，祂必按公义报应各人所行的。你是在神的恩典中建造，还是在罪恶的联盟中经营？前者存到永远，后者必被火焚烧。
+    </div>
+
+    <!-- 第四段 -->
+    <h3>4. 无耻的终局：磨石下的审判 (士师记9章50-57节)</h3>
+
+    <div class="scripture-box">
+        亚比米勒到提备斯，向提备斯安营，就攻取了那城。城中有一座坚固的楼。城里的众人，无论男女，都逃进楼去，关上门，上了楼顶。亚比米勒到了楼前攻打，挨近楼门，要用火焚烧。有一个妇人把一块上磨石抛在亚比米勒的头上，打破了他的脑骨。他就急忙喊叫拿他兵器的少年人，对他说：“拔出你的刀来，杀了我吧！免得人议论我说，他为一个妇人所杀。”于是少年人把他刺透，他就死了。以色列人见亚比米勒死了，便各回自己的地方去了。这样，　神报应亚比米勒向他父亲所行的恶，就是杀了弟兄七十个人的恶。示剑人的一切恶，　神也都报应在他们头上，耶路巴力的儿子约坦的咒诅归到他们身上了。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>疯狂的报复与意外的结局：</strong> 杀红了眼的亚比米勒并不满足于摧毁示剑，他又攻打提备斯。他想故技重施，用火烧楼。然而，就在他极其狂傲、以为不可一世的时候，一块“上磨石”（推磨用的那块较小的石头，但也足以致死）从天而降。投石者是一位无名的妇人。这是极具讽刺的死法：这位不可一世的暴君，没有死在沙场勇士的刀下，却死在了一个妇人手中的家务工具下。这与西西拉死于雅亿之手（士师记4章）有异曲同工之妙。神再次使用软弱者羞辱了强壮者，用最卑微的方式结束了最狂妄的生命。
+    </p>
+    <p>
+        <strong>死要面子的虚荣：</strong> 亚比米勒临死前最关心的不是他的灵魂，也不是他的罪，而是他的“名声”——“免得人议论我说，他为一个妇人所杀。” 他让拿兵器的少年人刺死他，试图掩盖自己死于妇人之手的羞辱。这种至死不悟的骄傲，是他一生的写照。他为了名声（作王）杀人，为了名声而死，结果却留下了千古笑柄（后来的约押元帅仍以此为戒，参撒母耳记下11章21节）。他试图掌控自己的死亡方式，却无法掌控死后的审判。
+    </p>
+    <p>
+        <strong>神学总结与公义的闭环：</strong> 作者在最后两节给出了全章的神学总结：“这样，神报应……”。这表明，这一连串的政治动荡、屠杀和死亡，并非历史的偶然，而是**神公义的报应（Divine Retribution）**。神报应了亚比米勒杀弟兄的恶，也报应了示剑人助纣为虐的恶。约坦的咒诅完全应验。这宣告了：在混乱的士师时代，虽然人任意而行，但神依然坐着为王，祂的公义从未缺席。无论恶人如何猖狂，神的审判终必临到，且分毫不差。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        亚比米勒的死告诉我们，人无论如何挣扎、掩饰，最终都无法逃脱神的审判。他想保住“面子”，神却让他丢尽了脸。我们最应当在乎的，不是人在此时此刻如何议论我们，而是神在永恒中如何定夺我们。敬畏耶和华，是远离恶事的开端。你是否在乎人的评价过于神的评价？悔改吧，在神面前谦卑的人，必不至羞愧。
+    </div>
+
+    <div class="qa-box">
+        <div class="qa-title">信仰解惑：神为什么要差遣“恶魔”？这是否意味着神是恶的作者？</div>
+        <p>
+            这在改革宗神学中属于“神的主权与罪恶”的范畴。
+        </p>
+        <p>
+            1.  <strong>神不是恶的作者：</strong> 圣经明确说“神不能被恶试探，他也不试探人”（雅各书1章13节）。罪恶的源头在于受造物的自由意志的堕落。
+        </p>
+        <p>
+            2.  <strong>神主权地利用恶：</strong> 神虽然不产生恶，但祂拥有至高的权柄去<strong>支配、限制和利用</strong>恶，来成就祂公义的目的。在这里，亚比米勒和示剑人已经心存邪恶，神“差遣”恶魔，意即神撤去祂的普遍恩典（约束），任凭邪恶势力在他们中间发酵，使他们的罪恶如毒疮般爆发，最终导致自我毁灭。
+        </p>
+        <p>
+            3.  <strong>审判的工具：</strong> 正如神使用亚述王作为“怒气的棍”来管教以色列，神也使用恶灵来执行对亚比米勒的死刑判决。这彰显了神的智慧：祂能让罪恶互相效力，最终成就公义的审判。
+        </p>
+    </div>
+
+    <h2>三、本章的中心思想</h2>
+    <p>
+        士师记第9章深刻揭示了**“无神王权的虚妄与神公义的必然”**。它通过亚比米勒的兴衰，警告我们：凡建立在流血、阴谋和偶像之上的权力，必被自身发出的火所吞灭。哪怕在最黑暗、最混乱的时刻，神依然是历史的主宰，祂信实地执行盟约中的咒诅，确保罪恶得到应有的报应。这章也反衬出真正的君王应当像橄榄树一样，谦卑服事，而非像荆棘一样刺伤他人。
+    </p>
+
+    <h2>四、我们与主相遇</h2>
+    <p>
+        <strong>这位神是怎样的神？</strong>
+        祂是**轻慢不得的神**，人种的是什么，收的也是什么。祂是**掌管灵界的主**，连恶魔也受祂差遣来执行审判。祂是**听人呼求的神**，虽然本章没有提到百姓呼求，但约坦在山顶的呼喊被神听见并应允了。祂的眼目遍察全地，没有一件恶事能逃过祂的鉴察。
+    </p>
+    <p>
+        <strong>这章经文如何指向基督？</strong>
+        亚比米勒是**“反基督”**的预表：他杀戮弟兄以求作王，基督却为弟兄舍命而作王；他像荆棘发出火来烧灭百姓，基督却像葡萄树流出宝血使人得生命；他死于骄傲，基督死于谦卑。橄榄树、无花果树、葡萄树的拒绝，指向了基督在地上的谦卑——祂不求地上的国，只求遵行父的旨意。基督是那真正的好树，在祂的荫下，我们得享真实的安息。
+    </p>
+
+    <h2>五、作者对原初读者的信息</h2>
+    <p>
+        对于生活在后来王朝时期的以色列人，这一章是极大的警戒。它告诉他们：不要盲目崇拜王权。如果王不是神所膏立的，如果不按诚实正直行事，王权本身就是灾难。真正的安全感不在于立一个强人（像亚比米勒）为王，而在于顺服耶和华的统治。这呼吁他们从对人的迷信中回转，单单信靠神。同时，也警告那些在位的君王，若行亚比米勒的道，必受亚比米勒的报应。
+    </p>
+
+    <h2>六、今日生命应用</h2>
+    <p>
+        <strong>1. 检视领袖观与成功观：</strong>
+        不要被那些善于自我营销、甚至使用手段上位的“荆棘式”人物所迷惑。真正的属灵领袖是像橄榄树一样，默默结出果实，造福他人，而非一定要“飘摇在众树之上”。我们在选择领袖或成为领袖时，要看重品格过于能力，看重服事过于地位。
+    </p>
+    <p>
+        <strong>2. 确信神的公义报应：</strong>
+        当我们看到恶人暂时亨通、阴谋得逞时，不要心怀不平。亚比米勒统治了三年，似乎很风光，但“神的时间”一到，报应立刻临到。要忍耐，等候神的判决。不要自己伸冤，宁可让步，听凭主怒。
+    </p>
+    <p>
+        <strong>3. 警惕家族罪恶的延续：</strong>
+        基甸的错误（多妻、以弗得）在亚比米勒身上被放大并结出死罪。我们要谨慎自己的言行，因为我们的妥协可能会在儿女身上成为巨大的破口。求主以此章为鉴，切断罪的代际传承，为后代留下敬虔的榜样而非咒诅。
+    </p>
+
+    <div class="footer">
+        Soli Deo Gloria | 唯独荣耀归给神
+    </div>
+
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>士师记 第十章：短暂的复兴与神圣的担忧</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root { 
+    --bg-color: #F7F5F0; 
+    --text-color: #2b2b2b; 
+    --accent-color: #8B3A3A; 
+    --accent-light: #F2E6E6; 
+    --secondary-text: #666055; 
+    --scripture-bg: #FFFFFF; 
+    --scripture-border: #D8D0C5;
+    --meditation-bg: #F4F4F4; 
+    --meditation-text: #555;
+    --font-main: 'Noto Serif SC', 'Songti SC', serif; 
+    --font-sans: 'Noto Sans SC', sans-serif; 
+}
+
+body { 
+    background-color: var(--bg-color); 
+    color: var(--text-color); 
+    font-family: var(--font-main); 
+    line-height: 2.3; 
+    font-size: 21px; 
+    margin: 0; 
+    padding: 0; 
+    background-image: linear-gradient(#F7F5F0 1px, transparent 1px), linear-gradient(90deg, #F7F5F0 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.container { 
+    max-width: 900px; 
+    margin: 80px auto; 
+    padding: 70px 60px; 
+    background-color: #fff;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+    border-radius: 2px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 90px;
+    border-bottom: 3px solid var(--accent-color);
+    padding-bottom: 50px;
+}
+
+h1 { 
+    font-family: var(--font-main); 
+    font-size: 3.4rem; 
+    font-weight: 900; 
+    margin-bottom: 1.2rem; 
+    color: #1a1a1a; 
+    letter-spacing: -1.5px; 
+    line-height: 1.1;
+}
+
+.subtitle { 
+    font-family: var(--font-sans); 
+    font-size: 1.4rem; 
+    color: var(--accent-color); 
+    letter-spacing: 4px; 
+    text-transform: uppercase; 
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+h2 { 
+    font-family: var(--font-sans); 
+    font-size: 1.6rem; 
+    font-weight: 700; 
+    margin-top: 6rem; 
+    margin-bottom: 3rem; 
+    color: #000;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+h3 { 
+    font-family: var(--font-main); 
+    font-size: 1.45rem; 
+    font-weight: 700; 
+    margin-top: 4.5rem; 
+    margin-bottom: 2rem; 
+    color: #333; 
+    border-left: 5px solid var(--accent-color);
+    padding-left: 20px;
+}
+
+.scripture-box { 
+    background-color: var(--scripture-bg); 
+    padding: 40px 45px; 
+    margin: 45px -30px 40px -30px; 
+    border-top: 1px solid var(--scripture-border);
+    border-bottom: 1px solid var(--scripture-border);
+    font-family: var(--font-main); 
+    font-size: 1.08em; 
+    color: #4a4a4a; 
+    line-height: 2.1; 
+    text-align: justify; 
+}
+
+.exegesis-title {
+    font-family: var(--font-sans);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-top: 30px;
+    margin-bottom: 25px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    border-bottom: 2px solid #e0d0b0;
+    padding-bottom: 3px;
+}
+
+p {
+    margin-bottom: 2rem;
+    text-align: justify;
+    color: #2c2c2c;
+    text-indent: 2em; 
+}
+
+strong {
+    color: var(--accent-color);
+    font-weight: 700;
+}
+
+.meditation-block { 
+    background-color: var(--meditation-bg); 
+    padding: 35px 45px; 
+    margin: 50px 0; 
+    font-family: var(--font-main);
+    color: var(--meditation-text);
+    font-style: italic;
+    border-left: 4px solid #ccc;
+}
+
+.meditation-header { 
+    font-family: var(--font-sans); 
+    font-size: 0.95rem; 
+    font-weight: 700; 
+    color: #777; 
+    text-transform: uppercase; 
+    letter-spacing: 2.5px; 
+    display: block; 
+    margin-bottom: 15px;
+    text-indent: 0;
+}
+
+.qa-box { 
+    background-color: #fffaf5; 
+    border: 1px solid #efe5d5;
+    border-left: 5px solid #c2b299; 
+    padding: 40px; 
+    margin: 50px 0; 
+}
+
+.qa-title { 
+    font-family: var(--font-sans); 
+    font-weight: 700; 
+    color: var(--accent-color); 
+    margin-bottom: 20px; 
+    font-size: 1.2em; 
+    text-indent: 0;
+}
+
+.disclaimer { 
+    font-size: 12px; 
+    color: #aaa; 
+    text-align: center; 
+    margin-bottom: 80px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.footer { 
+    margin-top: 120px; 
+    padding-top: 50px; 
+    border-top: 1px solid #eee; 
+    font-family: var(--font-main); 
+    font-size: 1.25rem; 
+    color: var(--accent-color); 
+    text-align: center; 
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+@media (max-width: 600px) { 
+    .container { padding: 40px 25px; margin: 0; width: 100%; box-sizing: border-box;} 
+    h1 { font-size: 2.4rem; } 
+    body { font-size: 19px; } 
+    .scripture-box { margin: 30px 0; padding: 25px; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="disclaimer">
+        基于中文和合本圣经 · 改革宗神学视角 · AI 辅助生成
+    </div>
+
+    <header>
+        <h1>士师记 第十章</h1>
+        <div class="subtitle">短暂的复兴与神圣的担忧</div>
+    </header>
+
+    <h2>一、上下文关联：从血腥内战到神圣拒斥</h2>
+    <p>
+        士师记第9章以亚比米勒的暴政和示剑的毁灭，展示了以色列人“荆棘作王”的惨痛后果。那是一个没有外敌入侵，却因内部罪恶而自我毁灭的黑暗时期。第10章承接这片废墟，带来了暂时的喘息。神兴起了两位“小士师”——陀拉和睚珥，为以色列带来了长达45年的和平。
+    </p>
+    <p>
+        然而，这种和平并未带来灵性的真正复兴。本章的后半部分记录了士师记中最为黑暗的转折点：以色列人陷入了全方位的偶像崇拜（列出了七种假神），招致了神最严厉的审判。这里发生了整卷书中最令人震惊的对话：神第一次明确表示“不再救你们了”。这一章不仅是历史的过渡，更是神学上的深渊，揭示了神忍耐的极限与盟约爱恨交织的张力。
+    </p>
+
+    <h2>二、逐段精解：平静的间奏与风暴的再起</h2>
+
+    <!-- 第一段 -->
+    <h3>1. 陀拉与睚珥：废墟上的修补者 (士师记10章1-5节)</h3>
+
+    <div class="scripture-box">
+        亚比米勒以后，有以萨迦人朵多的孙子，普瓦的儿子陀拉兴起，拯救以色列人。他住在以法莲山地的沙密。陀拉作以色列的士师二十三年，就死了，葬在沙密。在他以后有基列人睚珥兴起，作以色列的士师二十二年。他有三十个儿子，骑着三十匹驴驹。他们有三十座城邑，叫作哈倭特睚珥，直到如今，都是在基列地。睚珥死了，就葬在加们。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>废墟上的拯救者：</strong> 经文开篇即说“亚比米勒以后……陀拉兴起，拯救以色列人”。这里的“拯救”具有特殊的含义。当时并没有明确记载外敌入侵，因此陀拉的拯救主要是从亚比米勒造成的<strong>内乱与分裂</strong>中恢复秩序。亚比米勒的统治撕裂了以色列，留下了满目疮痍的土地和人心。陀拉（名字意为“虫”或“鲜红”）是以萨迦人，却住在以法莲山地。这种跨支派的居住可能暗示了他致力于弥合支派间的裂痕，特别是修复以法莲（士师记8章曾记载以法莲的骄傲）与其他支派的关系。他像一只谦卑的“虫”，默默耕耘了23年，使国家重回正轨。在喧嚣的暴君之后，神赐下了一位安静的建设者。
+    </p>
+    <p>
+        <strong>富足中的隐忧：</strong> 接着兴起的是基列人睚珥。他的统治特征是富足与荣耀。他有“三十个儿子，骑着三十匹驴驹，有三十座城邑”。在古代，骑驴驹是贵族身份的象征（不同于战马，驴驹象征和平时期的尊荣）。这表明在睚珥的22年里，以色列享受了极大的经济繁荣和政治稳定。然而，经文特别提到这三十座城叫“哈倭特睚珥”（意为“睚珥的村庄”）。这似乎暗示了一种<strong>家族势力的扩张</strong>。虽然没有像基甸那样制造以弗得，也没有像亚比米勒那样称王，但这种将国家资源家族化的倾向，反映了士师制度正在逐渐变质。领袖们开始更多关注家族的产业（三十座城），而非神国度的复兴。
+    </p>
+    <p>
+        <strong>小士师的神学意义：</strong> 陀拉和睚珥被称为“小士师”，并非因为他们不重要，而是因为圣经关于他们的记载篇幅较短。这45年的平静期是神在两次大风暴之间的恩典。它告诉我们，神不仅在战争中施行拯救，也在和平时期维持秩序。然而，这种依靠人的治理带来的和平是脆弱的，如果没有深层的灵性悔改，繁荣往往成为下一次堕落的温床。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        我们在经历了属灵的风暴或教会的动荡之后，是否懂得珍惜神赐下的“陀拉时期”？那是一段安静、修复、重建的日子。不要轻看那些默默无闻的领袖，他们可能没有惊天动地的战绩，但他们在废墟上重建了秩序。同时，也要警惕“睚珥时期”的富足，当我们的事奉开始变为建立自己的“三十座城邑”时，堕落就不远了。
+    </div>
+
+    <!-- 第二段 -->
+    <h3>2. 彻底的背道与神的拒绝 (士师记10章6-16节)</h3>
+
+    <div class="scripture-box">
+        以色列人又行耶和华眼中看为恶的事，去侍奉诸巴力和亚斯他录，并亚兰的神、西顿的神、摩押的神、亚扪人的神、非利士人的神，离弃耶和华，不侍奉他。耶和华的怒气向以色列人发作，就把他们交在非利士人和亚扪人的手中。从那年起，他们扰害欺压约旦河那边、住亚摩利人之基列地的以色列人，共有十八年。亚扪人又渡过约旦河去攻打犹大和便雅悯，并以法莲族。以色列人就甚觉窘迫。以色列人哀求耶和华说：“我们得罪了你，因为离弃了我们　神，去侍奉诸巴力。”耶和华对以色列人说：“我岂没有救过你们脱离埃及人、亚摩利人、亚扪人和非利士人吗？西顿人、亚玛力人、马云人也都欺压你们。你们哀求我，我也拯救你们脱离他们的手。你们竟离弃我，侍奉别神，所以我不再救你们了。你们去哀求所选择的神，你们遭遇急难的时候，让他救你们吧！”以色列人对耶和华说：“我们犯罪了，任凭你随意待我们吧！只求你今日拯救我们。”以色列人就除掉他们中间的外邦神，侍奉耶和华。耶和华因以色列人受的苦难，就心中担忧。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>七重背道与七重压迫：</strong> 第6节列出了一份令人触目惊心的偶像清单：巴力、亚斯他录、亚兰神、西顿神、摩押神、亚扪神、非利士神。总共<strong>七种</strong>。这象征着<strong>完全的背道</strong>。以色列人几乎把周围列国所有的神都搬回了家，唯独“离弃耶和华，不侍奉他”。这是一种属灵上的集邮癖，试图通过多方下注来确立安全感。作为回应，神将他们交在非利士人（西方）和亚扪人（东方）手中。这形成了<strong>双重夹击</strong>，以色列人陷入了前所未有的“窘迫”（原文意为被挤压、无路可走）。
+    </p>
+    <p>
+        <strong>神圣的拒绝与讽刺：</strong> 当百姓照例呼求时，神给出了士师记中最严厉的回应：“所以我不再救你们了。”（13节）。这不是神在发脾气，而是神在执行盟约的制裁。神列举了过去<strong>七次</strong>的拯救（对应他们的七重背道），证明了自己的信实和以色列的负恩。神讽刺地说：“去哀求所选择的神……让他救你们吧！” 这是为了逼出他们真实的悔改。神要让他们亲身体验偶像的无能。如果你们认为巴力有用，现在就是它显灵的时候。这种神圣的拒绝，是为了打破以色列人的功利主义心态——他们只把耶和华当作召之即来的急救医生。
+    </p>
+    <p>
+        <strong>真实的悔改与神心的转动：</strong> 面对神的拒绝，以色列人没有抱怨，反而表现出了罕见的真诚：“任凭你随意待我们吧！”（15节）。这是无条件投降。他们不再讨价还价，而是接受神的惩罚权柄。更重要的是，他们付诸行动：“除掉外邦神，侍奉耶和华”。这是真正的悔改果子。
+        紧接着是整卷书最感人的一句：“耶和华因以色列人受的苦难，就心中担忧。”（16节）。原文直译为“祂的灵因以色列的劳苦而缩短（不耐烦/难过）”。这显示了神在<strong>公义审判</strong>与<strong>慈爱怜悯</strong>之间的巨大张力。虽然按律法祂应当灭绝他们，但按着祂的父性，祂无法忍受看着儿女受苦。神的“担忧”不是焦虑，而是深切的同情。这份同情，成为了下一章拯救行动的源头。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        神说“不再救你们了”，这是最可怕的判决。但即使在这个判决中，也包含着挽回的爱意。神有时会暂时掩面不顾我们，是为了让我们尝尽罪的苦果，看清偶像的虚无。你是否把神当作“备胎”或“急救包”？真正的悔改不是嘴上说“我错了”，而是行动上“除掉外邦神”。当我们真诚悔改时，神那颗慈父的心必定会因我们的苦难而伤痛，进而施恩。
+    </div>
+
+    <!-- 第三段 -->
+    <h3>3. 领袖的真空与基列的困境 (士师记10章17-18节)</h3>
+
+    <div class="scripture-box">
+        当时亚扪人聚集，安营在基列。以色列人也聚集，安营在米斯巴。基列的民和众首领彼此商议，说：“谁能先去攻打亚扪人，谁必作基列一切居民的领袖。”
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>无牧之羊的恐慌：</strong> 这一段为下一章耶弗他的出场做了铺垫。亚扪大军压境，安营在基列（约旦河东）。以色列人虽然也聚集在米斯巴，但群龙无首。之前的四十五年和平（陀拉和睚珥时期）似乎消磨了他们的战斗意志，或者说，因为长期的背道，神没有兴起明显的领袖。这种领袖真空是神审判的一部分。
+    </p>
+    <p>
+        <strong>权宜之计的悬赏：</strong> 基列的首领们发出了悬赏：“谁能先去……谁必作领袖。” 这反映了当时政治生态的恶化。在约书亚或基甸时代，领袖是神所呼召及恩膏的；而现在，领袖是通过政治交易产生的。他们不是在求问神“谁当先上去”（如1章1节），而是在用“领袖地位”作为诱饵来招募雇佣兵。这种实用主义的决策，虽然在短期内解决了军事指挥权的问题，但也引入了耶弗他这样性格复杂、背景存疑的人物，为后来的悲剧（如耶弗他的许愿）埋下了伏笔。当教会或群体缺乏神所设立的领袖时，往往会陷入这种“病急乱投医”的困境。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        “谁能作我们的领袖？”这是人类社会永恒的焦虑。当群体离弃神时，必然陷入领袖荒。此时，人们往往愿意把权力交给任何一个能解决眼前危机的人，而不问他的品格或信仰。这是危险的信号。我们应当为教会和国家的领袖祷告，求神兴起合祂心意的人，而不是仅仅有能力解决问题的人。
+    </div>
+
+    <div class="qa-box">
+        <div class="qa-title">信仰解惑：神说“不再救你们了”，后来为什么又救了？神会食言吗？</div>
+        <p>
+            这是一个关乎神属性的深刻问题。
+        </p>
+        <p>
+            1.  <strong>神的不变性与互动性：</strong> 神的属性（如公义、慈爱、信实）是永不改变的，但神在历史中对待人的方式（Administration）是互动的。当神说“不再救你们”时，这是基于当时以色列人“顽梗不化”的状态所作出的<strong>盟约性判决</strong>。这是一种有条件的警告（Conditionality），旨在激发悔改。
+        </p>
+        <p>
+            2.  <strong>悔改改变了关系：</strong> 当以色列人发生了真实的悔改（除掉偶像），他们就从“背约者”的位置转回到了“寻求者”的位置。神并没有改变祂的原则（审判罪恶），而是因为人改变了位置，从而进入了神另一条原则（怜悯悔改者）的适用范围。
+        </p>
+        <p>
+            3.  <strong>神心的伤痛：</strong> 第16节“心中担忧”是解开这个结的钥匙。在希伯来语境中，这表达了神无法忍受看到祂所爱的人处于毁灭之中。正如一位父亲对逆子说“我再也不管你了”，但当逆子真诚悔改并遭遇生命危险时，父亲的爱使他无法袖手旁观。这不是食言，这是<strong>恩典超越律法</strong>的奥秘。
+        </p>
+    </div>
+
+    <h2>三、本章的中心思想</h2>
+    <p>
+        士师记第10章深刻揭示了**“背道的深度与神怜悯的长度”**。它展示了以色列人如何在和平中堕落，陷入全方位的偶像崇拜，以致招惹神最严厉的拒绝。然而，即使在神宣告“不再拯救”的绝境中，真诚的悔改依然能触动神那颗慈父般的心。这章经文告诉我们：虽然罪恶能暂时阻断神的拯救，但只要人回转，神的恩典总比我们的过犯更深。
+    </p>
+
+    <h2>四、我们与主相遇</h2>
+    <p>
+        <strong>这位神是怎样的神？</strong>
+        祂是**忌邪的神**，绝不容忍祂的百姓在心中设立万神殿。祂是**诚实的神**，面对虚假的呼求，祂会用冷峻的真理刺破人的幻想。祂更是**满有怜悯的父**，祂的心会因儿女的苦难而“缩短”（担忧），祂无法抗拒一颗破碎痛悔的心。
+    </p>
+    <p>
+        <strong>这章经文如何指向基督？</strong>
+        以色列人的“七重背道”显示了人类罪恶的完全，而神在他们悔改后的心软，预表了基督在十字架上的心肠。当人类因罪恶本该被神永远弃绝（“不再救你们”）时，神因子（基督）所受的苦难（以及我们因信基督而与祂联合所受的苦），就动了慈心。基督就是那位终极的士师，祂不像陀拉只能带来暂时的恢复，也不像耶弗他带有性格缺陷，祂是完美的拯救者，为我们止息了神的怒气。
+    </p>
+
+    <h2>五、作者对原初读者的信息</h2>
+    <p>
+        对于那些处在被掳边缘或已经亡国的以色列人来说，这一章是最后的通牒也是最后的希望。通牒在于：不要以为神会无底线地容忍，神可以说“不”。希望在于：即使到了“卖给仇敌”的地步，只要像祖先那样“除掉外邦神”，神的心依然会为你们担忧。这呼唤他们从形式主义的宗教活动中走出来，进入撕裂心肠的真实悔改。
+    </p>
+
+    <h2>六、今日生命应用</h2>
+    <p>
+        <strong>1. 珍惜平淡的恩典：</strong>
+        如果你正处于“陀拉时期”（生活平顺、无大风浪），请感恩并警醒。不要嫌生活枯燥，那是神给你的修养期。在平顺中建立深厚的属灵根基，远比在风暴中临时抱佛脚要稳妥得多。
+    </p>
+    <p>
+        <strong>2. 彻底清理偶像：</strong>
+        检查你的生命，是否有“七重偶像”的影子？金钱、权力、情感、娱乐……是否占据了神的位置？不要等到神说“你去求它们救你吧”的时候才后悔。现在就除掉它们，单单侍奉耶和华。
+    </p>
+    <p>
+        <strong>3. 抓住神的“心软”：</strong>
+        当你觉得自己罪孽深重、神似乎已经离弃你时，不要绝望。带着哪怕是微小的信心回到祂面前，告诉祂：“任凭你随意待我，但我只求你。”神那颗慈爱的心，必定会因你的回转而跳动。祂的怒气是暂时的，祂的恩典乃是一生之久。
+    </p>
+
+    <div class="footer">
+        Soli Deo Gloria | 唯独荣耀归给神
+    </div>
+
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>士师记 第十一章：被弃绝者的拯救与莽撞的誓言</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root { 
+    --bg-color: #F7F5F0; 
+    --text-color: #2b2b2b; 
+    --accent-color: #8B3A3A; 
+    --accent-light: #F2E6E6; 
+    --secondary-text: #666055; 
+    --scripture-bg: #FFFFFF; 
+    --scripture-border: #D8D0C5;
+    --meditation-bg: #F4F4F4; 
+    --meditation-text: #555;
+    --font-main: 'Noto Serif SC', 'Songti SC', serif; 
+    --font-sans: 'Noto Sans SC', sans-serif; 
+}
+
+body { 
+    background-color: var(--bg-color); 
+    color: var(--text-color); 
+    font-family: var(--font-main); 
+    line-height: 2.3; 
+    font-size: 21px; 
+    margin: 0; 
+    padding: 0; 
+    background-image: linear-gradient(#F7F5F0 1px, transparent 1px), linear-gradient(90deg, #F7F5F0 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.container { 
+    max-width: 900px; 
+    margin: 80px auto; 
+    padding: 70px 60px; 
+    background-color: #fff;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+    border-radius: 2px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 90px;
+    border-bottom: 3px solid var(--accent-color);
+    padding-bottom: 50px;
+}
+
+h1 { 
+    font-family: var(--font-main); 
+    font-size: 3.4rem; 
+    font-weight: 900; 
+    margin-bottom: 1.2rem; 
+    color: #1a1a1a; 
+    letter-spacing: -1.5px; 
+    line-height: 1.1;
+}
+
+.subtitle { 
+    font-family: var(--font-sans); 
+    font-size: 1.4rem; 
+    color: var(--accent-color); 
+    letter-spacing: 4px; 
+    text-transform: uppercase; 
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+h2 { 
+    font-family: var(--font-sans); 
+    font-size: 1.6rem; 
+    font-weight: 700; 
+    margin-top: 6rem; 
+    margin-bottom: 3rem; 
+    color: #000;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+h3 { 
+    font-family: var(--font-main); 
+    font-size: 1.45rem; 
+    font-weight: 700; 
+    margin-top: 4.5rem; 
+    margin-bottom: 2rem; 
+    color: #333; 
+    border-left: 5px solid var(--accent-color);
+    padding-left: 20px;
+}
+
+.scripture-box { 
+    background-color: var(--scripture-bg); 
+    padding: 40px 45px; 
+    margin: 45px -30px 40px -30px; 
+    border-top: 1px solid var(--scripture-border);
+    border-bottom: 1px solid var(--scripture-border);
+    font-family: var(--font-main); 
+    font-size: 1.08em; 
+    color: #4a4a4a; 
+    line-height: 2.1; 
+    text-align: justify; 
+}
+
+.exegesis-title {
+    font-family: var(--font-sans);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-top: 30px;
+    margin-bottom: 25px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    border-bottom: 2px solid #e0d0b0;
+    padding-bottom: 3px;
+}
+
+p {
+    margin-bottom: 2rem;
+    text-align: justify;
+    color: #2c2c2c;
+    text-indent: 2em; 
+}
+
+strong {
+    color: var(--accent-color);
+    font-weight: 700;
+}
+
+.meditation-block { 
+    background-color: var(--meditation-bg); 
+    padding: 35px 45px; 
+    margin: 50px 0; 
+    font-family: var(--font-main);
+    color: var(--meditation-text);
+    font-style: italic;
+    border-left: 4px solid #ccc;
+}
+
+.meditation-header { 
+    font-family: var(--font-sans); 
+    font-size: 0.95rem; 
+    font-weight: 700; 
+    color: #777; 
+    text-transform: uppercase; 
+    letter-spacing: 2.5px; 
+    display: block; 
+    margin-bottom: 15px;
+    text-indent: 0;
+}
+
+.qa-box { 
+    background-color: #fffaf5; 
+    border: 1px solid #efe5d5;
+    border-left: 5px solid #c2b299; 
+    padding: 40px; 
+    margin: 50px 0; 
+}
+
+.qa-title { 
+    font-family: var(--font-sans); 
+    font-weight: 700; 
+    color: var(--accent-color); 
+    margin-bottom: 20px; 
+    font-size: 1.2em; 
+    text-indent: 0;
+}
+
+.disclaimer { 
+    font-size: 12px; 
+    color: #aaa; 
+    text-align: center; 
+    margin-bottom: 80px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.footer { 
+    margin-top: 120px; 
+    padding-top: 50px; 
+    border-top: 1px solid #eee; 
+    font-family: var(--font-main); 
+    font-size: 1.25rem; 
+    color: var(--accent-color); 
+    text-align: center; 
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+@media (max-width: 600px) { 
+    .container { padding: 40px 25px; margin: 0; width: 100%; box-sizing: border-box;} 
+    h1 { font-size: 2.4rem; } 
+    body { font-size: 19px; } 
+    .scripture-box { margin: 30px 0; padding: 25px; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="disclaimer">
+        基于中文和合本圣经 · 改革宗神学视角 · AI 辅助生成
+    </div>
+
+    <header>
+        <h1>士师记 第十一章</h1>
+        <div class="subtitle">被弃绝者的拯救与莽撞的誓言</div>
+    </header>
+
+    <h2>一、上下文关联：从神学困境到具体拯救</h2>
+    <p>
+        在士师记第10章，我们见证了以色列人深度的背道和神严厉的判决：“我不再救你们了”。然而，在百姓真诚悔改（除掉外邦神）和神“心中担忧”的张力中，拯救的曙光再次出现。第11章将这一拯救落实到了具体的人物身上——耶弗他。
+    </p>
+    <p>
+        耶弗他是士师记中最具争议和悲剧色彩的人物之一。他的出身极其卑微（妓女之子），被父家赶逐，却成为神所用的器皿。这一章不仅记录了他对亚扪人的外交与军事胜利，更记录了他因对神的性格缺乏真知而许下的鲁莽誓言。这表明，在士师时代晚期，即便是被神重用的人，其神学认识也受到了迦南文化的严重污染。这是一个英雄与悲剧并存的时代，拯救与愚昧交织的篇章。
+    </p>
+
+    <h2>二、逐段精解：流亡、辩护与献祭</h2>
+
+    <!-- 第一段 -->
+    <h3>1. 匪徒首领的回归与立约 (士师记11章1-11节)</h3>
+
+    <div class="scripture-box">
+        基列人耶弗他是个大能的勇士，是妓女的儿子。耶弗他是基列所生的。基列的妻也生了几个儿子。他妻所生的儿子长大了，就赶逐耶弗他，说：“你不可在我们父家承受产业，因为你是妓女的儿子。”耶弗他就逃避他的弟兄，去住在陀伯地，有些匪徒到他那里聚集，与他一同出入。过了些日子，亚扪人攻打以色列。亚扪人攻打以色列的时候，基列的长老到陀伯地去，要叫耶弗他回来。对耶弗他说：“请你来作我们的元帅，我们好与亚扪人争战。”耶弗他回答基列的长老说：“从前你们不是恨我、赶逐我出离父家吗？现在你们遭遇急难为何到我这里来呢？”基列的长老回答耶弗他说：“现在我们到你这里来，是要你同我们去，与亚扪人争战，你可以作基列一切居民的领袖。”耶弗他对基列的长老说：“你们叫我回去，与亚扪人争战，耶和华把他交给我，我可以作你们的领袖吗？”基列的长老回答耶弗他说：“有耶和华在你我中间作见证，我们必定照你的话行。”于是耶弗他同基列的长老回去，百姓就立耶弗他作领袖、作元帅。耶弗他在米斯巴将自己的一切话，陈明在耶和华面前。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>被弃绝者的画像：</strong> 耶弗他的故事始于羞辱。他是“妓女的儿子”，虽然父亲是基列人，但他在律法上处于边缘地位（申命记23章2节对私生子的限制）。他被同父异母的兄弟赶逐，失去了产业继承权，流亡到陀伯地。然而，正是在这荒野中，他展现了领袖的才华，聚集了一群“匪徒”（原文意为“空虚的人”，指无业游民或社会边缘人）。这与后来大卫在亚杜兰洞聚集受窘迫之人的情景何其相似。神似乎总喜欢拣选那些被正统社会拒绝的“废石”作为房角石，这预表了那位被匠人所弃的基督。
+    </p>
+    <p>
+        <strong>长老的实用主义与耶弗他的谈判：</strong> 当亚扪人的威胁临到时，当初赶逐耶弗他的基列长老们，不得不厚着脸皮去求他回来。这是一场充满政治算计的谈判。长老们起初只请他作“元帅”（军事指挥官），耶弗他敏锐地指出了他们的虚伪，并趁机抬高价码，要求成为“领袖”（政治与军事的最高首领）。这种讨价还价显示了当时以色列领袖产生的机制已经从“神的呼召”转变为“人的协商”。长老们被迫答应，并指着耶和华起誓。
+    </p>
+    <p>
+        <strong>米斯巴的陈明：</strong> 第11节是关键的转折点：“耶弗他在米斯巴将自己的一切话，陈明在耶和华面前。” 尽管耶弗他的上位充满了政治博弈，但他并未忘记神。他在米斯巴（可能是当时的宗教中心之一）举行了某种就职典礼，寻求神的认可。这表明他虽然是个草莽英雄，但内心仍存有对耶和华的敬畏。他知道，若是没有神的同在，人的任命毫无意义。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        耶弗他的经历安慰了每一个受过伤害、被排挤的人。人的拒绝往往是神预备我们将要承担更大重任的开始。同时，我们也看到人的尽头是神的起头。基列长老在走投无路时才想起那位被他们赶逐的弟兄，正如我们在急难中才想起被我们冷落的救主。你是否也在利用神（或神的仆人）来解决你的危机，却不愿让他作你生命真正的“领袖”？
+    </div>
+
+    <!-- 第二段 -->
+    <h3>2. 历史与神学的辩护 (士师记11章12-28节)</h3>
+
+    <div class="scripture-box">
+        耶弗他打发使者去见亚扪人的王，说：“你与我有什么相干，竟来到我国中攻打我呢？”亚扪人的王回答耶弗他的使者说：“因为以色列人从埃及上来的时候，占据我的地，从亚嫩河到雅博河，直到约旦河。现在你要好好地将这地归还吧！”耶弗他又打发使者去见亚扪人的王，对他说：“耶弗他如此说：以色列人并没有占据摩押地和亚扪人的地。以色列人从埃及上来，乃是经过旷野到红海，来到加低斯，就打发使者去见以东王，说：‘求你容我从你的地经过。’以东王却不应允。又照样打发使者去见摩押王，他也不允准，以色列人就住在加低斯。他们又经过旷野，绕着以东和摩押地，从摩押地的东边过来，在亚嫩河边安营，并没有入摩押的境内，因为亚嫩河是摩押的边界。以色列人打发使者去见亚摩利王西宏，就是希实本的王，对他说：‘求你容我们从你的地经过，往我们自己的地方去。’西宏却不信服以色列人，不容他们经过他的境界，乃招聚他的众民，在雅杂安营，与以色列人争战。耶和华以色列的　神，将西宏和他的众民都交在以色列人手中，以色列人就击杀他们，得了亚摩利人的全地：从亚嫩河到雅博河，从旷野直到约旦河。耶和华以色列的　神，在他百姓以色列面前赶出亚摩利人，你竟要得他们的地吗？你的神基抹所赐你的地，你不是得为业吗？耶和华我们的　神在我们面前所赶出的人，我们就得他的地。难道你比摩押王西拨的儿子巴勒还强吗？他曾与以色列人争竞，或是与他们争战吗？以色列人住希实本和属希实本的乡村，亚罗珥和属亚罗珥的乡村，并沿亚嫩河的一切城邑，已经有三百年了。在这三百年之内，你们为什么没有取回这些地方呢？原来我没有得罪你，你却攻打我，恶待我。愿审判人的耶和华，今日在以色列人和亚扪人中间判断是非。”但亚扪人的王不肯听耶弗他打发人说的话。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>作为神学家的匪徒：</strong> 这段长篇的外交辞令令人惊讶。这位“匪徒首领”竟然对以色列的历史和律法了如指掌。他没有立即动武，而是先讲道理，试图通过外交解决争端。他对亚扪王关于“土地主权”的指控进行了有理有据的反驳。
+    </p>
+    <p>
+        <strong>三重辩护：</strong> 耶弗他的辩护基于三个层面：
+        1.  <strong>历史层面（16-22节）：</strong> 他详细回顾了民数记20-21章的历史，指出以色列人严格遵守了神的命令，没有侵犯以东、摩押和亚扪的领土。他们现在居住的基列地，原本属于亚摩利王西宏。是西宏主动攻击以色列，神才将这地赐给他们。因此，亚扪人的领土要求是篡改历史。
+        2.  <strong>神学层面（23-24节）：</strong> 耶弗他提出了“神赐地业”的原则。这地是耶和华赐给的，正如亚扪人认为他们的神基抹赐给他们地业一样（虽然基抹通常是摩押的神，但在当时的多神崇拜中可能也被亚扪人敬拜，或是一种针对性的修辞）。耶弗他的意思是：这是神与神之间的主权划分，我们不能放弃神所赐的产业。
+        3.  <strong>时效层面（25-26节）：</strong> 以色列人已经在这地居住了三百年。如果这地真是亚扪的，为什么在这漫长的岁月里他们从未试图收回？连当年的摩押王巴勒都不敢争战，现在的亚扪王凭什么？
+    </p>
+    <p>
+        <strong>耶和华是审判者：</strong> 最后，耶弗他将案件上诉至最高法庭：“愿审判人的耶和华，今日……判断是非。” 这不仅是外交辞令，更是信仰告白。耶弗他深信这场战争不仅仅是民族冲突，更是真理之战。他确信自己站在公义的一方。这段经文显示，即便是一个出身卑微、混迹江湖的人，如果熟悉神的话语并据理力争，也能成为真理的捍卫者。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        耶弗他对历史的熟悉程度令许多信徒汗颜。我们是否清楚神在我们生命中工作的历史？当世界挑战我们的信仰、质疑我们的盼望时，我们能否像耶弗他一样，用神的话语和作为来“驳斥”谎言？属灵争战往往始于真理的辩护。如果不清楚神给了我们什么（基业），我们就无法勇敢地守住它。
+    </div>
+
+    <!-- 第三段 -->
+    <h3>3. 灵的降临与致命的许愿 (士师记11章29-40节)</h3>
+
+    <div class="scripture-box">
+        耶和华的灵降在耶弗他身上，他就经过基列和玛拿西，来到基列的米斯巴，又从米斯巴来到亚扪人那里。耶弗他就向耶和华许愿，说：“你若将亚扪人交在我手中，我从亚扪人那里平平安安回来的时候，无论什么人，先从我家门出来迎接我，就必归你，我也必将他献上为燔祭。”于是耶弗他往亚扪人那里去，与他们争战；耶和华将他们交在他手中，他就大大杀败他们，从亚罗珥到米匿，直到亚备勒基拉明，攻取了二十座城。这样，亚扪人就被以色列人制伏了。耶弗他回米斯巴到了自己的家。不料，他女儿拿着鼓跳舞出来迎接他，是他独生的，此外无儿无女。耶弗他看见她，就撕裂衣服，说：“哀哉！我的女儿啊，你使我甚是愁苦，叫我作难了，因为我已经向耶和华开口许愿，不能挽回。”他女儿回答说：“父啊，你既向耶和华开口，就当照你口中所说的向我行，因耶和华已经在仇敌亚扪人身上为你报仇。”又对父亲说：“有一件事求你允准：容我去两个月，与同伴在山上，好哀哭我终为处女。”耶弗他说：“你去吧！”就容她去两个月。她便和同伴去了，在山上为她终为处女哀哭。两月已满，她回到父亲那里，父亲就照所许的愿向她行了。女儿终身没有亲近男子。此后以色列中有个规矩，每年以色列的女子去为基列人耶弗他的女儿哀哭四天
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>圣灵的加力与信心的软弱：</strong> 第29节明确记载“耶和华的灵降在耶弗他身上”。这意味着神已经赐下了得胜的能力和保证。然而，紧接着第30节，耶弗他却做了一个多余且愚蠢的动作——许愿。既然有了神的灵，为何还要通过许愿来“贿赂”神？这反映了耶弗他信心的掺杂。他深受迦南异教文化的影响，认为神像外邦偶像一样，需要通过重大的牺牲（甚至人祭）来换取恩宠。这是对神恩典属性的无知。
+    </p>
+    <p>
+        <strong>鲁莽的誓言：</strong> 他许愿将“先从我家门出来迎接我”的献为燔祭。他可能预期是一只动物，但在古代近东的房屋结构中，家畜和人往往住在同一屋檐下，甚至他潜意识里可能受到了摩押人献长子为祭（列王纪下3章27节）这种恶俗的影响，认为越宝贵的祭物越灵验。这是一个试图以此操控神的行为，是极其危险的试探。
+    </p>
+    <p>
+        <strong>悲剧的应验：</strong> 战争胜利了，但这胜利因誓言而蒙上了阴影。出来迎接他的，竟然是他独生的女儿。这一幕极具希腊悲剧色彩，但其实质是神学悲剧。耶弗他撕裂衣服，表现出极度的痛苦，但他却没有寻求律法中的补救措施（利未记27章允许用金钱赎回许愿的人）。他固执地认为“向耶和华开口……不能挽回”，这显示了他对律法知识的片面和僵化。他为了守住自己的“信誉”和字面上的誓言，牺牲了神的律法核心（不可杀人，不可献人祭）。
+    </p>
+    <p>
+        <strong>关于结局的争议：</strong> 历史上对“照所许的愿向她行了”有两种解释。一种认为是指**终身守独身**（献身给神），依据是经文强调她“终身没有亲近男子”及“哀哭终为处女”。另一种（也是更符合原文直义和古代教父观点的）认为是指**实际的献祭**。虽然献人祭是神所憎恶的，但在士师记那个“各人任意而行”的黑暗时代，这种混合主义的悲剧极有可能发生。无论哪种解释，这都是一个因为对神认识不清而导致的家庭悲剧。女儿的顺服令人动容，但这顺服建立在一个错误的父亲和一个错误的誓言之上。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        耶弗他的悲剧警示我们：热心若没有真知识，会带来何等大的破坏。我们是否也常在神面前许下鲁莽的愿，试图用“牺牲”来换取神的祝福？神喜悦听命胜于献祭。当我们发现自己的承诺违背了神的心意时，真正的敬虔是承认错误并寻求赦免，而不是为了面子而错上加错。不要让我们的“信仰”成为身边亲人的伤害。
+    </div>
+
+    <h2>三、本章的中心思想</h2>
+    <p>
+        士师记第11章通过耶弗他的兴起与誓言，揭示了**“神主权的拯救与人信仰的混杂”**。神虽使用出身卑微、甚至神学观念有偏差的人来拯救祂的百姓，彰显了祂的恩典超越人的软弱；但人若试图用异教的方式（许愿交换）来通过神的道路，终将付出惨痛的代价。这一章深刻地讽刺了那个时代：由于对律法的无知，一场伟大的军事胜利最终演变成了一场令人心碎的家庭悲剧。
+    </p>
+
+    <h2>四、我们与主相遇</h2>
+    <p>
+        <strong>这位神是怎样的神？</strong>
+        祂是**眷顾卑微者的神**，祂从灰尘中抬举耶弗他。祂是**历史的主宰**，将亚摩利人的地赐给以色列。祂也是**任凭人的神**，当耶弗他发出鲁莽誓言时，神没有从天上发声阻止（如对亚伯拉罕那样），而是任凭这一悲剧发生，以此作为对那个混合主义时代的审判和警戒。
+    </p>
+    <p>
+        <strong>这章经文如何指向基督？</strong>
+        耶弗他是被弟兄弃绝、后来却成为房角石（领袖）的人，这预表了基督被犹太同胞弃绝却成为救主。然而，耶弗他也是一个反面的影儿：他为了誓言牺牲了自己的独生女，而神为了誓言（新约）牺牲了自己的独生子。耶弗他的女儿是无辜受难，基督更是无辜受难，但基督的死带来了真正的救赎，而非无谓的悲剧。
+    </p>
+
+    <h2>五、作者对原初读者的信息</h2>
+    <p>
+        对于生活在被掳或受压迫时期的读者，这一章既是鼓励也是警告。鼓励在于：神能使用被社会遗弃的人带来拯救，要对神有信心。警告在于：必须通过律法准确地认识神。不要效法迦南人的风俗（如献人祭的誓言），否则即便赢得了战争，也会输掉未来（独生女的死意味着家族的断绝）。这是对回归妥拉纯正教导的呼唤。
+    </p>
+
+    <h2>六、今日生命应用</h2>
+    <p>
+        <strong>1. 接纳自己的出身与过去：</strong>
+        无论你的家庭背景多么破碎（如耶弗他是妓女之子），无论你曾受过怎样的排挤，神都能使用你。不要让过去的伤痕定义你的未来，要让神的主权改写你的人生剧本。
+    </p>
+    <p>
+        <strong>2. 谨慎你的言语与承诺：</strong>
+        “你在神面前不可冒失开口，也不可心急发言。”（传道书5章2节）。不要试图与神做交易。如果你已经许了错误的愿，要明白神喜爱怜恤，不喜爱祭祀。悔改比错误的坚持更蒙神悦纳。
+    </p>
+    <p>
+        <strong>3. 用真理装备你的热心：</strong>
+        耶弗他有热心，也有圣灵的感动，但缺乏对神属性的准确认知，导致了悲剧。我们需要在圣经真理上扎根，以免把迷信当作敬虔，把愚昧当作忠诚。
+    </p>
+
+    <div class="footer">
+        Soli Deo Gloria | 唯独荣耀归给神
+    </div>
+
+</div>
+</body>
+</html>

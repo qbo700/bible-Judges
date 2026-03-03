@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>士师记 第一章：未竟的征服与妥协的开端</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root { 
+    --bg-color: #F7F5F0; 
+    --text-color: #2b2b2b; 
+    --accent-color: #8B3A3A; 
+    --accent-light: #F2E6E6; 
+    --secondary-text: #666055; 
+    --scripture-bg: #FFFFFF; 
+    --scripture-border: #D8D0C5;
+    --meditation-bg: #F4F4F4; 
+    --meditation-text: #555;
+    --font-main: 'Noto Serif SC', 'Songti SC', serif; 
+    --font-sans: 'Noto Sans SC', sans-serif; 
+}
+
+body { 
+    background-color: var(--bg-color); 
+    color: var(--text-color); 
+    font-family: var(--font-main); 
+    line-height: 2.3; 
+    font-size: 21px; 
+    margin: 0; 
+    padding: 0; 
+    background-image: linear-gradient(#F7F5F0 1px, transparent 1px), linear-gradient(90deg, #F7F5F0 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.container { 
+    max-width: 900px; 
+    margin: 80px auto; 
+    padding: 70px 60px; 
+    background-color: #fff;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+    border-radius: 2px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 90px;
+    border-bottom: 3px solid var(--accent-color);
+    padding-bottom: 50px;
+}
+
+h1 { 
+    font-family: var(--font-main); 
+    font-size: 3.4rem; 
+    font-weight: 900; 
+    margin-bottom: 1.2rem; 
+    color: #1a1a1a; 
+    letter-spacing: -1.5px; 
+    line-height: 1.1;
+}
+
+.subtitle { 
+    font-family: var(--font-sans); 
+    font-size: 1.4rem; 
+    color: var(--accent-color); 
+    letter-spacing: 4px; 
+    text-transform: uppercase; 
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+h2 { 
+    font-family: var(--font-sans); 
+    font-size: 1.6rem; 
+    font-weight: 700; 
+    margin-top: 6rem; 
+    margin-bottom: 3rem; 
+    color: #000;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+h3 { 
+    font-family: var(--font-main); 
+    font-size: 1.45rem; 
+    font-weight: 700; 
+    margin-top: 4.5rem; 
+    margin-bottom: 2rem; 
+    color: #333; 
+    border-left: 5px solid var(--accent-color);
+    padding-left: 20px;
+}
+
+.scripture-box { 
+    background-color: var(--scripture-bg); 
+    padding: 40px 45px; 
+    margin: 45px -30px 40px -30px; 
+    border-top: 1px solid var(--scripture-border);
+    border-bottom: 1px solid var(--scripture-border);
+    font-family: var(--font-main); 
+    font-size: 1.08em; 
+    color: #4a4a4a; 
+    line-height: 2.1; 
+    text-align: justify; 
+}
+
+.exegesis-title {
+    font-family: var(--font-sans);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-top: 30px;
+    margin-bottom: 25px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    border-bottom: 2px solid #e0d0b0;
+    padding-bottom: 3px;
+}
+
+p {
+    margin-bottom: 2rem;
+    text-align: justify;
+    color: #2c2c2c;
+    text-indent: 2em; 
+}
+
+strong {
+    color: var(--accent-color);
+    font-weight: 700;
+}
+
+.meditation-block { 
+    background-color: var(--meditation-bg); 
+    padding: 35px 45px; 
+    margin: 50px 0; 
+    font-family: var(--font-main);
+    color: var(--meditation-text);
+    font-style: italic;
+    border-left: 4px solid #ccc;
+}
+
+.meditation-header { 
+    font-family: var(--font-sans); 
+    font-size: 0.95rem; 
+    font-weight: 700; 
+    color: #777; 
+    text-transform: uppercase; 
+    letter-spacing: 2.5px; 
+    display: block; 
+    margin-bottom: 15px;
+    text-indent: 0;
+}
+
+.qa-box { 
+    background-color: #fffaf5; 
+    border: 1px solid #efe5d5;
+    border-left: 5px solid #c2b299; 
+    padding: 40px; 
+    margin: 50px 0; 
+}
+
+.qa-title { 
+    font-family: var(--font-sans); 
+    font-weight: 700; 
+    color: var(--accent-color); 
+    margin-bottom: 20px; 
+    font-size: 1.2em; 
+    text-indent: 0;
+}
+
+.disclaimer { 
+    font-size: 12px; 
+    color: #aaa; 
+    text-align: center; 
+    margin-bottom: 80px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.footer { 
+    margin-top: 120px; 
+    padding-top: 50px; 
+    border-top: 1px solid #eee; 
+    font-family: var(--font-main); 
+    font-size: 1.25rem; 
+    color: var(--accent-color); 
+    text-align: center; 
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+@media (max-width: 600px) { 
+    .container { padding: 40px 25px; margin: 0; width: 100%; box-sizing: border-box;} 
+    h1 { font-size: 2.4rem; } 
+    body { font-size: 19px; } 
+    .scripture-box { margin: 30px 0; padding: 25px; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="disclaimer">
+        基于中文和合本圣经 · 改革宗神学视角 · AI 辅助生成
+    </div>
+
+    <header>
+        <h1>士师记 第一章</h1>
+        <div class="subtitle">未竟的征服与妥协的开端</div>
+    </header>
+
+    <h2>一、上下文关联：领袖真空与信仰转折</h2>
+    <p>
+        《士师记》开篇的“约书亚死后”不仅是时间标记，更是神学上的分水岭。这标志着以色列从一个在强力领袖带领下整体顺服的时代，滑向了一个各自为政、信仰妥协的黑暗时期。本章作为全书序言，展示了从“主动征服”到“被动共存”再到“受制于人”的堕落轨迹，揭示了士师时代混乱的根源：不是外敌太强，而是内部对神圣洁命令的妥协。它为后文“各人任意而行”的悲剧埋下了伏笔。
+    </p>
+
+    <h2>二、逐段精解：信心的余晖与妥协的阴影</h2>
+
+    <!-- 第一段 -->
+    <h3>1. 犹大支派的领头与残缺的公义 (1章1-7)</h3>
+
+    <div class="scripture-box">
+        约书亚死后，以色列人求问耶和华说：“我们中间谁当首先上去攻击迦南人，与他们争战？”耶和华说：“犹大当先上去，我已将那地交在他手中。”犹大对他哥哥西缅说：“请你同我到拈阄所得之地去，好与迦南人争战；以后我也同你到你拈阄所得之地去。”于是西缅与他同去。犹大就上去。耶和华将迦南人和比利洗人交在他们手中，他们在比色击杀了一万人。又在那里遇见亚多尼比色，与他争战，杀败迦南人和比利洗人。亚多尼比色逃跑，他们追赶，拿住他，砍断他手脚的大拇指。亚多尼比色说：“从前有七十个王，手脚的大拇指都被我砍断，在我桌子底下拾取零碎食物。现在　神按着我所行的报应我了。”于是他们将亚多尼比色带到耶路撒冷，他就死在那里。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>神圣次序与信心微瑕：</strong> 以色列人在领袖真空期首先“求问耶和华”，这是积极的开端。神指定“犹大当先上去”，确认了其作为君王支派的地位，应验了创世记49章8节的预言。神赐下明确应许：“我已将那地交在他手中”。然而，犹大却转身邀请西缅同去。这在军事上虽合理（两支派地业相邻），但在神学上透露出信心的瑕疵：既然全能神已保证将地交在手中，为何还需要人的帮手？这暗示了以色列人开始倾向于寻找“肉眼可见的保障”，而非单纯依靠神的话语。
+    </p>
+    <p>
+        <strong>同态复仇与神的公义：</strong> 对亚多尼比色砍断手脚大拇指的处置，在古代近东旨在废除战俘的作战与逃跑能力。亚多尼比色的话揭示了这背后的神学逻辑：“神按着我所行的报应我了。” 即使是残暴的外邦君王，也不得不承认普世的公义法则。这表明耶和华不仅是以色列的护卫者，更是全地的审判者。祂对罪恶的追讨是精准且无可逃避的，“人种的是什么，收的也是什么”。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        亚多尼比色的结局警示我们：神是轻慢不得的，我们对他人的行为终将回到自己身上。同时，犹大虽蒙神呼召“当先上去”，却仍想拉上西缅，这是否也是我们信心的写照？当神呼召我们独自承担使命时，我们是否总想找各种“属人的保障”才敢迈步？求主赐给我们单纯依靠祂应许的勇气。
+    </div>
+
+    <!-- 第二段 -->
+    <h3>2. 迦勒家族的信心与押撒的祈求 (1章8-15)</h3>
+
+    <div class="scripture-box">
+        犹大人攻打耶路撒冷，将城攻取，用刀杀了城内的人，并且放火烧城。后来犹大人下去，与住山地、南地和高原的迦南人争战。犹大人去攻击住希伯仑的迦南人，杀了示筛、亚希幔、挞买。希伯仑从前名叫基列亚巴。他们从那里去攻击底璧的居民。底璧从前名叫基列西弗。迦勒说：“谁能攻打基列西弗，将城夺取，我就把我女儿押撒给他为妻。”迦勒兄弟基纳斯的儿子俄陀聂夺取了那城，迦勒就把女儿押撒给他为妻。押撒过门的时候，劝丈夫向她父亲求一块田。押撒一下驴，迦勒问她说：“你要什么？”她说：“求你赐福给我。你既将我安置在南地，求你也给我水泉。”迦勒就把上泉下泉赐给她。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>信心的传承：</strong> 在普遍灰暗的背景中，迦勒家族如同一盏明灯。这位85岁的老将不仅自己赶出亚衲族巨人，还激励下一代（俄陀聂）参与圣战。俄陀聂后来成为第一位士师，这深刻说明了敬虔家长对信仰代际传承的关键作用。与后文其他支派的妥协相比，迦勒家族代表了那种“专心跟从耶和华”的古老精神。
+    </p>
+    <p>
+        <strong>押撒的智慧与渴慕：</strong> 迦勒的女儿押撒不满足于仅仅拥有一块干旱的“南地”。她主动求“水泉”。在圣经预表学中，水象征着生命的源头与圣灵的恩典。她“一下驴”的动作体现了谦卑与急切。迦勒慷慨赐下“上泉下泉”，预表了天父乐意将丰盛恩典赐给切切寻求祂的人。当大多数以色列人满足于与迦南人混居时，押撒这种“不满足于干旱”、“大胆求索”的态度显得尤为宝贵。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        在这个容易满足于平庸的时代，你是否觉得只要拿到“南地”（仅仅得救）就够了？神为您预备的不仅是贫瘠的土地，更有涌流的“上泉下泉”（圣灵充满、丰盛生命）。不要因胆怯而停止祈求。神喜悦我们对祂的恩典有“贪心”。试问自己：我生命中是否缺少了那滋润的水泉？
+    </div>
+
+    <!-- 第三段 -->
+    <h3>3. 铁车的借口与局部的失败 (1章16-21)</h3>
+
+    <div class="scripture-box">
+        摩西的内兄是基尼人，他的子孙与犹大人一同离了棕树城，往亚拉得以南的犹大旷野去，就住在民中。犹大和他哥哥西缅同去，击杀了住洗法的迦南人，将城尽行毁灭，那城的名便叫何珥玛。犹大又取了迦萨和迦萨的四境，亚实基伦和亚实基伦的四境，以革伦和以革伦的四境。耶和华与犹大同在，犹大就赶出山地的居民，只是不能赶出平原的居民，因为他们有铁车。以色列人照摩西所说的，将希伯仑给了迦勒，迦勒就从那里赶出亚衲族的三个族长。便雅悯人没有赶出住耶路撒冷的耶布斯人，耶布斯人仍在耶路撒冷与便雅悯人同住，直到今日。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>铁车神学难题：</strong> 第19节出现了一个刺眼的神学张力：“耶和华与犹大同在……只是不能赶出平原的居民，因为他们有铁车。” 既然全能神同在，区区铁车怎能拦阻？在约书亚记17章18节，约书亚曾明确应许：“迦南人虽有铁车……你也能把他们赶出去。” 这里的“不能”并非客观能力的缺失，而是主观信心的瘫痪。这是一种<strong>选择性的不信</strong>：他们相信神能打赢山地战，却不信神能胜过平原的铁车。这揭露了人常把神的作为限制在理性的“可能性”范围内。
+    </p>
+    <p>
+        <strong>便雅悯的致命妥协：</strong> 第21节更进一步，便雅悯人不仅没赶出耶布斯人，反而与之“同住”。这违反了申命记7章关于灭绝迦南人的命令。与罪恶“同住”意味着防御体系的瓦解和混合主义的开始。这为后来便雅悯支派在士师记19章中的道德堕落埋下了伏笔——当你容忍迦南人在你中间，你最终就会变成迦南人。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        什么是你生命中的“铁车”？是根深蒂固的成瘾？是看似无法解决的困境？我们常说：“神啊，这件事太难了。”这就是犹大人的“铁车神学”。请记住，神的能力不受物质法则限制。阻挡得胜的不是敌人的强大，而是我们信心的微小。
+    </div>
+
+    <!-- 第四段 -->
+    <h3>4. 伯特利的交易与实用主义的胜利 (1章22-26)</h3>
+
+    <div class="scripture-box">
+        约瑟家也上去攻打伯特利，耶和华与他们同在。约瑟家打发人去窥探伯特利。那城起先名叫路斯。窥探的人看见一个人从城里出来，就对他说：“求你将进城的路指示我们，我们必恩待你。”那人将进城的路指示他们，他们就用刀击杀了城中的居民，但将那人和他全家放去。那人往赫人之地去，筑了一座城，起名叫路斯。那城到如今还叫这名。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>变质的“喇合故事”：</strong> 这段记载充满了属灵的讽刺。不同于喇合因敬畏神而主动投靠，伯特利的这个人纯粹是因被胁迫而为了保命出卖城池。这里没有信心的告白，只有赤裸裸的利益交换。
+    </p>
+    <p>
+        <strong>实用主义的网罗：</strong> 约瑟家对他承诺“我们必恩待你”。为了走捷径攻城，他们不惜与迦南人立约，直接违背了神“不可与他们立约”的命令。结果那人被放走后，去别处又建了一座“路斯”，迦南的文化和偶像崇拜并未被根除，只是被转移了。这说明：<strong>用属世的手段（妥协、交易）去完成神的工作，永远无法带来彻底的得胜</strong>。这种“只要目的达到，手段可以不计”的实用主义精神，是士师时代堕落的催化剂。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        在事奉和生活中，我们是否也常犯“伯特利式”的错误？为了成功而采用灰色手段？神看重过程过于结果，看重顺服过于成功。千万不要为了攻下一座城，而出卖了真理的原则。
+    </div>
+
+    <!-- 第五段 -->
+    <h3>5. 全面的溃败：从“赶不出”到“做苦工” (1章27-36)</h3>
+
+    <div class="scripture-box">
+        玛拿西没有赶出伯善和属伯善乡村的居民，他纳和属他纳乡村的居民，多珥和属多珥乡村的居民，以伯莲和属以伯莲乡村的居民，米吉多和属米吉多乡村的居民。迦南人却执意住在那些地方。及至以色列强盛了，就使迦南人做苦工，没有把他们全然赶出。以法莲没有赶出住基色的迦南人。于是迦南人仍住在基色，在以法莲中间。西布伦没有赶出基伦的居民和拿哈拉的居民。于是迦南人仍住在西布伦中间，成了服苦的人。亚设没有赶出亚柯和西顿的居民，亚黑拉和亚革悉的居民，黑巴、亚弗革与利合的居民。于是，亚设因为没有赶出那地的迦南人，就住在他们中间。拿弗他利没有赶出伯示麦和伯亚纳的居民。于是拿弗他利就住在那地的迦南人中间，然而伯示麦和伯亚纳的居民，成了服苦的人。亚摩利人强逼但人住在山地，不容他们下到平原。亚摩利人却执意住在希烈山和亚雅伦并沙宾。然而约瑟家胜了他们，使他们成了服苦的人。亚摩利人的境界，是从亚克拉滨坡，从西拉而上。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>失败的清单与堕落的阶梯：</strong> 本章结尾是一份令人沮丧的清单。
+        1.  <strong>经济剥削取代宗教圣洁：</strong> 玛拿西、以法莲等支派在“强盛”后，选择让迦南人“做苦工”而非赶出。这暴露了贪婪的动机：为了经济利益牺牲了信仰的纯洁性。他们以为可以驾驭罪恶（让它服苦），实则是养虎为患。
+        2.  <strong>主客易位的同化：</strong> 亚设支派的情况恶化为“住在迦南人中间”（32节）。主语转换暗示主权丧失，亚设人已完全被同化。
+        3.  <strong>被赶入深山的羞辱：</strong> 最悲惨的是但支派，他们被亚摩利人“强逼住在山地”。这是彻底的战败，神赐的肥沃平原无力夺取，只能在贫瘠之地苟延残喘。
+    </p>
+    <p>
+        <strong>执意的对抗：</strong> 经文两次提到迦南人“执意”住在那地。这反映了罪恶势力的顽强。<strong>如果我们不“执意”顺服神，罪恶就会“执意”占据我们的生命。</strong> 以色列人试图通过妥协换取和平与利益，结果却导致了后来长达数百年的偶像崇拜网罗。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        “做苦工”看似掌控，实则是被俘。当我们试图利用罪（如贪婪、不正当关系）获利时，其实已成为罪的奴仆。你是否在生命中圈养了“迦南人”？请警醒，若不赶出它们，它们终将强逼你退守山地，夺走你的平安。
+    </div>
+
+    <div class="qa-box">
+        <div class="qa-title">信仰解惑：为什么神没有像约书亚时代那样，帮助这些支派赶出敌人？</div>
+        <p>
+            这并非神的能力缩水，而是人对盟约的背弃导致了神恩典的收回。
+        </p>
+        <p>
+            首先，<strong>信心出了问题</strong>。约书亚时代的得胜基于“专靠耶和华”，而这一代人看见铁车就惧怕，计算利弊。神应许帮助的是信靠祂的人。
+        </p>
+        <p>
+            其次，<strong>动机出了问题</strong>。神命令灭绝迦南人是为了圣洁，但以色列人留下他们是为了贪图利益（做苦工）。当“圣战”变成“掠夺战”，神就不再为他们争战。
+        </p>
+        <p>
+            最后，这是<strong>神的试验</strong>（士师记2章22节）。神允许困难存在，是为了显明人心：到底爱神，还是爱世界的利益？
+        </p>
+    </div>
+
+    <h2>三、本章的中心思想</h2>
+    <p>
+        士师记第1章的主题是<strong>“不彻底的顺服即是失败”</strong>。虽然有犹大当先和迦勒家族的余晖，但整体趋势是令人痛心的：面对铁车时的胆怯（信心缺失）、面对利益时的贪婪（圣洁丧失）、面对异教时的宽容（混合主义兴起）。这章经文警告历代教会：与罪恶共存（哪怕是为了利用它），最终必导致被罪恶吞噬。
+    </p>
+
+    <h2>四、我们与主相遇</h2>
+    <p>
+        <strong>这位神是怎样的神？</strong> 祂是<strong>公义的报应者</strong>，即使是外邦王也承认祂的审判。祂是<strong>乐意赐福的父</strong>，慷慨回应押撒的祈求。祂也是<strong>任凭人的神</strong>，当百姓执意妥协时，祂便任凭他们承受“没有赶出”的苦果。
+    </p>
+    <p>
+        <strong>这章经文如何指向基督？</strong> 以色列人的彻底失败呼唤一位真正的救主。他们无法赶出仇敌，显示了旧约子民在律法下的无能。我们需要一位比俄陀聂更伟大的士师——耶稣基督。祂胜过了世界的“铁车”和罪恶的权势。押撒所求的“水泉”，最终指向了基督所赐的活水（约翰福音4章14节）。
+    </p>
+
+    <h2>五、作者对原初读者的信息</h2>
+    <p>
+        对于生活在混乱或被掳时期的读者，这一章解释了国家衰亡的原因：不是神不守约，而是祖先在最初就没有彻底顺服。那些被贪婪留下的迦南人，最终成了肋下的荆棘。这呼吁读者悔改，不再重蹈“做苦工”的覆辙，追求彻底的圣洁。
+    </p>
+
+    <h2>六、今日生命应用</h2>
+    <p>
+        <strong>1. 警惕生命中的“未竟之事”：</strong> 不要因“铁车”太强或“做苦工”有利而容忍罪的残留。一点面酵必使全团发起来。求神给你勇气，彻底清理生命中的“迦南余孽”。
+    </p>
+    <p>
+        <strong>2. 效法押撒的祈求：</strong> 在属灵荒凉的时代，做一个渴慕神的人。不要只满足于得救（南地），要切求圣灵的充满（水泉）。每天向神祈求丰盛的恩典。
+    </p>
+    <p>
+        <strong>3. 拒绝实用主义：</strong> 不要为了达到目的而牺牲真理原则。不要像攻打伯特利那样与世界做交易。神的国度依靠对真理的坚守和对神的信靠。
+    </p>
+
+    <div class="footer">
+        Soli Deo Gloria | 唯独荣耀归给神
+    </div>
+
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>士师记 第二章：波金的眼泪与循环的悲剧</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root { 
+    --bg-color: #F7F5F0; 
+    --text-color: #2b2b2b; 
+    --accent-color: #8B3A3A; 
+    --accent-light: #F2E6E6; 
+    --secondary-text: #666055; 
+    --scripture-bg: #FFFFFF; 
+    --scripture-border: #D8D0C5;
+    --meditation-bg: #F4F4F4; 
+    --meditation-text: #555;
+    --font-main: 'Noto Serif SC', 'Songti SC', serif; 
+    --font-sans: 'Noto Sans SC', sans-serif; 
+}
+
+body { 
+    background-color: var(--bg-color); 
+    color: var(--text-color); 
+    font-family: var(--font-main); 
+    line-height: 2.3; 
+    font-size: 21px; 
+    margin: 0; 
+    padding: 0; 
+    background-image: linear-gradient(#F7F5F0 1px, transparent 1px), linear-gradient(90deg, #F7F5F0 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.container { 
+    max-width: 900px; 
+    margin: 80px auto; 
+    padding: 70px 60px; 
+    background-color: #fff;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+    border-radius: 2px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 90px;
+    border-bottom: 3px solid var(--accent-color);
+    padding-bottom: 50px;
+}
+
+h1 { 
+    font-family: var(--font-main); 
+    font-size: 3.4rem; 
+    font-weight: 900; 
+    margin-bottom: 1.2rem; 
+    color: #1a1a1a; 
+    letter-spacing: -1.5px; 
+    line-height: 1.1;
+}
+
+.subtitle { 
+    font-family: var(--font-sans); 
+    font-size: 1.4rem; 
+    color: var(--accent-color); 
+    letter-spacing: 4px; 
+    text-transform: uppercase; 
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+h2 { 
+    font-family: var(--font-sans); 
+    font-size: 1.6rem; 
+    font-weight: 700; 
+    margin-top: 6rem; 
+    margin-bottom: 3rem; 
+    color: #000;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+h3 { 
+    font-family: var(--font-main); 
+    font-size: 1.45rem; 
+    font-weight: 700; 
+    margin-top: 4.5rem; 
+    margin-bottom: 2rem; 
+    color: #333; 
+    border-left: 5px solid var(--accent-color);
+    padding-left: 20px;
+}
+
+.scripture-box { 
+    background-color: var(--scripture-bg); 
+    padding: 40px 45px; 
+    margin: 45px -30px 40px -30px; 
+    border-top: 1px solid var(--scripture-border);
+    border-bottom: 1px solid var(--scripture-border);
+    font-family: var(--font-main); 
+    font-size: 1.08em; 
+    color: #4a4a4a; 
+    line-height: 2.1; 
+    text-align: justify; 
+}
+
+.exegesis-title {
+    font-family: var(--font-sans);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-top: 30px;
+    margin-bottom: 25px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    border-bottom: 2px solid #e0d0b0;
+    padding-bottom: 3px;
+}
+
+p {
+    margin-bottom: 2rem;
+    text-align: justify;
+    color: #2c2c2c;
+    text-indent: 2em; 
+}
+
+strong {
+    color: var(--accent-color);
+    font-weight: 700;
+}
+
+.meditation-block { 
+    background-color: var(--meditation-bg); 
+    padding: 35px 45px; 
+    margin: 50px 0; 
+    font-family: var(--font-main);
+    color: var(--meditation-text);
+    font-style: italic;
+    border-left: 4px solid #ccc;
+}
+
+.meditation-header { 
+    font-family: var(--font-sans); 
+    font-size: 0.95rem; 
+    font-weight: 700; 
+    color: #777; 
+    text-transform: uppercase; 
+    letter-spacing: 2.5px; 
+    display: block; 
+    margin-bottom: 15px;
+    text-indent: 0;
+}
+
+.qa-box { 
+    background-color: #fffaf5; 
+    border: 1px solid #efe5d5;
+    border-left: 5px solid #c2b299; 
+    padding: 40px; 
+    margin: 50px 0; 
+}
+
+.qa-title { 
+    font-family: var(--font-sans); 
+    font-weight: 700; 
+    color: var(--accent-color); 
+    margin-bottom: 20px; 
+    font-size: 1.2em; 
+    text-indent: 0;
+}
+
+.disclaimer { 
+    font-size: 12px; 
+    color: #aaa; 
+    text-align: center; 
+    margin-bottom: 80px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.footer { 
+    margin-top: 120px; 
+    padding-top: 50px; 
+    border-top: 1px solid #eee; 
+    font-family: var(--font-main); 
+    font-size: 1.25rem; 
+    color: var(--accent-color); 
+    text-align: center; 
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+@media (max-width: 600px) { 
+    .container { padding: 40px 25px; margin: 0; width: 100%; box-sizing: border-box;} 
+    h1 { font-size: 2.4rem; } 
+    body { font-size: 19px; } 
+    .scripture-box { margin: 30px 0; padding: 25px; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="disclaimer">
+        基于中文和合本圣经 · 改革宗神学视角 · AI 辅助生成
+    </div>
+
+    <header>
+        <h1>士师记 第二章</h1>
+        <div class="subtitle">波金的眼泪与循环的悲剧</div>
+    </header>
+
+    <h2>一、上下文关联：从军事失败到神学判决</h2>
+    <p>
+        如果说士师记第1章是从军事角度描述了以色列人征服的失败（“没有赶出”），那么第2章就是从神学角度对这一失败的最终判决。这章经文是理解整卷《士师记》的钥匙，它不仅回顾了过去（为何失败），也预示了未来（将要发生的悲剧循环）。
+    </p>
+    <p>
+        在这里，我们看到了神对以色列背约的正式起诉（盟约诉讼）。以色列人从约书亚时代的“吉甲”（得胜与滚去羞辱之地）堕落到了现在的“波金”（哭泣之地）。这一章确立了接下来几百年历史的基调：这不是一个英雄史诗的时代，而是一个在神的愤怒与怜悯之间反复震荡的螺旋式下降过程。
+    </p>
+
+    <h2>二、逐段精解：盟约的破裂与无尽的循环</h2>
+
+    <!-- 第一段 -->
+    <h3>1. 耶和华使者的宣判与波金的痛哭 (2章1-5)</h3>
+
+    <div class="scripture-box">
+        耶和华的使者从吉甲上到波金，对以色列人说：“我使你们从埃及上来，领你们到我向你们列祖起誓应许之地。我又说：‘我永不废弃与你们所立的约。你们也不可与这地的居民立约，要拆毁他们的祭坛。’你们竟没有听从我的话，为何这样行呢？因此我又说：‘我必不将他们从你们面前赶出；他们必作你们肋下的荆棘，他们的神必作你们的网罗。’”耶和华的使者向以色列众人说这话的时候，百姓就放声而哭。于是给那地方起名叫波金（就是“哭”的意思），众人在那里向耶和华献祭。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>耶和华使者的身份：</strong> 这位“耶和华的使者”并非普通的天使或先知，因为祂用第一人称说话：“我使你们从埃及上来……我向你们列祖起誓”。只有神自己才能说出这样的话。这是旧约中基督的显现（Christophany），是圣子在道成肉身前的显现。祂“从吉甲上来”。吉甲是约书亚时代的大本营，是行割礼、守逾越节、确立盟约记号的地方。使者从吉甲而来，意味着祂是带着那个未完成的盟约要求而来的。这种“移动”本身就是一种审判：神得胜的同在正在离开，转而进入一种对峙状态。
+    </p>
+    <p>
+        <strong>盟约的诉讼：</strong> 使者的话是一场标准的盟约诉讼。祂首先重申了神这方的信实：“我永不废弃与你们所立的约”。神是守约的，问题出在人身上。接着是起诉：“你们竟没有听从我的话，为何这样行呢？” 这里的“没有听从”不仅是指没有杀灭迦南人，更是指第1章中为了利益而与迦南人立约、让其做苦工的行为。
+    </p>
+    <p>
+        <strong>判决与眼泪：</strong> 判决是严厉的：“我必不将他们从你们面前赶出”。这是一个可怕的神学转折。之前“没有赶出”是因为以色列人的不信和懒惰；现在“必不赶出”则是神的惩罚性审判。神将原本应当被清除的敌人，转变为“肋下的荆棘”和“网罗”。这是神的主权性任凭。百姓听后“放声而哭”，但这哭声充满了复杂性。这是悔改的泪，还是仅仅因为听到了坏消息而产生的懊悔？从后文他们继续拜偶像的行为来看，这种眼泪更多是情绪的宣泄（Remorse），而非生命的翻转（Repentance）。在“波金”献祭，却未能阻止心中的背道，这是极其讽刺的。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        并不是所有的眼泪都是悔改。我们常因罪的后果（荆棘和网罗）而哭泣，却很少因罪本身得罪了圣洁的神而哀恸。波金的祭坛虽然建立了，但如果没有撕裂心肠的归正，那些眼泪不过是廉价的情绪。请省察你的悔改：是出于对惩罚的恐惧，还是出于对神的爱？
+    </div>
+
+    <!-- 第二段 -->
+    <h3>2. 世代的断层与信仰的失落 (2章6-10)</h3>
+
+    <div class="scripture-box">
+        从前约书亚打发以色列百姓去的时候，他们各归自己的地业，占据地土。约书亚在世和约书亚死后，那些见耶和华为以色列人所行大事的长老还在的时候，百姓都侍奉耶和华。耶和华的仆人，嫩的儿子约书亚，正一百一十岁就死了。以色列人将他葬在他地业的境内，就是在以法莲山地的亭拿希烈，在迦实山的北边。那世代的人也都归了自己的列祖。后来有别的世代兴起，不知道耶和华，也不知道耶和华为以色列人所行的事。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>倒叙与对比：</strong> 这段经文是对约书亚死时情景的倒叙（参约书亚记24章），目的是为了与现在的状况形成强烈对比。约书亚时代被称为“侍奉耶和华”的时代，那是一个信仰纯正的黄金时期。然而，经文用一个令人心碎的短语结束了这段回忆：“后来有别的世代兴起”。
+    </p>
+    <p>
+        <strong>认识神的危机：</strong> 第10节是整卷书最悲哀的经文之一：“不知道耶和华，也不知道耶和华为以色列人所行的事。” 这里的“知道”（Yada）在希伯来文中不仅指智性上的认知，更指关系上的亲密体验和盟约上的委身。新一代以色列人或许听过出埃及的故事，但这些故事对他们来说只是古老的传说，与他们的生活无关。他们没有经历过红海的分开，也没有在约旦河边立石为证。
+    </p>
+    <p>
+        <strong>教育的失败：</strong> 这种断层是谁的责任？申命记6章曾严厉吩咐父母要将神的话“殷勤教训你的儿女”。显然，上一代人在忙于“各归自己的地业，占据地土”（忙于安家立业、搞经济建设）时，忽略了信仰的传承。他们成功地传给了子孙土地和房子，却未能传给他们那位赐地的神。当见证神作为的长老离世后，信仰就成了真空，而这个真空迅速被周围的迦南文化填补了。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        我们是否正在重演“别的世代”的悲剧？我们努力给孩子最好的教育、房产和未来，却常常在家庭祭坛上缺席。如果我们的下一代“不知道耶和华”，我们所有的世俗成就都将成为他们通往灭亡的铺路石。信仰传承不能自动发生，它需要刻意的教导和生命的见证。
+    </div>
+
+    <!-- 第三段 -->
+    <h3>3. 离弃真神与灾祸的临到 (2章11-15)</h3>
+
+    <div class="scripture-box">
+        以色列人行耶和华眼中看为恶的事，去侍奉诸巴力，离弃了领他们出埃及地的耶和华、他们列祖的　神，去叩拜别神，就是四围列国的神，惹耶和华发怒。并离弃耶和华，去侍奉巴力和亚斯他录。耶和华的怒气向以色列人发作，就把他们交在抢夺他们的人手中。又将他们付与四围仇敌的手中，甚至他们在仇敌面前再不能站立得住。他们无论往何处去，耶和华都以灾祸攻击他们，正如耶和华所说的话，又如耶和华向他们所起的誓。他们便极其困苦。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>巴力与亚斯他录的诱惑：</strong> 以色列人“行耶和华眼中看为恶的事”，具体表现为侍奉“诸巴力”（Baalim，复数）和“亚斯他录”。巴力是迦南的风暴与丰饶之神，掌管雨水和庄稼；亚斯他录是掌管战争与性爱的女神。这种宗教极具诱惑力，因为它直接关联到经济繁荣（农业丰收）和感官享受（庙妓淫乱）。对于刚从游牧生活转入定居农业生活的以色列人来说，拜巴力似乎是“科学种田”的必要手段。他们试图在敬拜耶和华的同时，也讨好当地的神灵，这是一种典型的实用主义混合信仰。
+    </p>
+    <p>
+        <strong>神圣的嫉妒与怒气：</strong> 经文反复强调“离弃耶和华……惹耶和华发怒”。这是一种盟约丈夫对不忠妻子的义愤。神不是冷漠的宇宙原则，祂是有位格、有情感的主。祂的怒气不是情绪失控，而是对盟约被践踏的公义反应。
+    </p>
+    <p>
+        <strong>反转的“出埃及”：</strong> 第14-15节描述了可怕的后果：神把他们“交在”（原文意为“卖给”）仇敌手中。神曾亲手将他们从埃及为奴之家领出来，现在却亲手将他们交还给奴役。神曾应许“无论往何处去，耶和华都必与你同在”（约书亚记1章9节），现在却是“无论往何处去，耶和华都以灾祸攻击他们”。这是一次彻底的逆转。神成为了祂百姓的敌人，因为百姓首先让自己成为了神的敌人。这正如神在申命记28章所起的誓：顺服蒙福，悖逆受祸。神的信实不仅体现在赐福上，也体现在降灾上。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        现代的“巴力”不再是石像，而是金钱、成功和性。我们是否觉得单单信靠神不足以应对现代生活的挑战（如经济压力），因此需要去“拜”那些掌管资源的世俗原则？请记住，当我们拥抱世界以求安全感时，我们实际上是在招惹神的攻击。神若攻击我们，谁能保护我们呢？
+    </div>
+
+    <!-- 第四段 -->
+    <h3>4. 士师的兴起与顽梗的循环 (2章16-23)</h3>
+
+    <div class="scripture-box">
+        耶和华兴起士师，士师就拯救他们脱离抢夺他们人的手。他们却不听从士师，竟随从叩拜别神，行了邪淫，速速地偏离他们列祖所行的道，不如他们列祖顺从耶和华的命令。耶和华为他们兴起士师，就与那士师同在。士师在世的一切日子，耶和华拯救他们脱离仇敌的手。他们因受欺压扰害，就哀声叹气，所以耶和华后悔了。及至士师死后，他们就转去行恶，比他们列祖更甚，去侍奉叩拜别神，总不断绝顽梗的恶行。于是耶和华的怒气向以色列人发作。他说：“因这民违背我吩咐他们列祖所守的约，不听从我的话，所以约书亚死的时候所剩下的各族，我必不再从他们面前赶出。为要藉此试验以色列人，看他们肯照他们列祖谨守遵行我的道不肯。”这样耶和华留下各族，不将他们速速赶出，也没有交付约书亚的手。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>士师的角色与局限：</strong> “士师”（Shophetim）在这里并非现代意义上的法官，而是神兴起的“拯救者”和军事领袖。这是一群有缺陷的英雄。经文揭示了一个令人绝望的模式：士师的拯救完全源于神的怜悯（“耶和华后悔了”，意为神因怜悯而转意），而非百姓的功德。只要士师在世，百姓就因着领袖的约束而暂时安分；一旦士师从眼前消失（死后），百姓就立刻“转去行恶，比他们列祖更甚”。这证明了人的全然败坏——外在的管教和拯救无法改变内心的顽梗。
+    </p>
+    <p>
+        <strong>神的“后悔”与怜悯：</strong> 第18节提到“耶和华后悔了”（relented/was moved to pity）。这不代表神承认自己犯错或改变了永恒旨意，而是用拟人化的语言描述神对百姓苦难的深切同情。即便是在审判中，神的心依然向着祂的子民。然而，百姓的回应却是“总不断绝顽梗的恶行”。这种对比凸显了神的恒久忍耐与人的持续背逆。
+    </p>
+    <p>
+        <strong>试验的奥秘：</strong> 最后，神解释了为何不再赶出迦南余孽：为了“试验”以色列人。这原本是因以色列人不信而留下的后果（荆棘），现在被神转化为一个教育工具。神利用这些异族作为试金石，来显明以色列人内心的真实光景。如果他们顺服，神仍能赶出仇敌；如果他们悖逆，这些仇敌就是神手中的刑杖。这种“留下”既是审判，也是恩典的另一种形式——通过持续的张力迫使以色列人面对信仰的抉择。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        我们的灵性是否也像士师时代一样起伏不定？困苦时呼求，顺境时背离；有领袖监督时火热，独处时冷淡。这种循环揭示了我们内心的败坏。我们需要一位不死的士师，一位能赐下新心的救主。同时，神量给你的环境（那些未被赶出的困难），正是神对你信心的试验场，不要逃避，要在其中学习争战。
+    </div>
+
+    <div class="qa-box">
+        <div class="qa-title">信仰解惑：神既然是全知全能的，为什么说神“后悔”了？</div>
+        <p>
+            这在神学上称为“神人同性同情语”（Anthropopathism）。
+        </p>
+        <p>
+            首先，<strong>神的不变性：</strong> 圣经明确教导“神非人，必不致说谎；也非人子，必不致后悔”（民数记23章19节）。在神的本质、属性和永恒计划上，祂是绝对不变的。
+        </p>
+        <p>
+            其次，<strong>神的关系性互动：</strong> 当经文说神“后悔”时，是在描述神在时间中与人互动的<strong>关系状态的改变</strong>。当人从顺服转为悖逆，神就从赐福转为审判；当人从顽梗转为哀求，神就从忿怒转为怜悯。从人的角度看，神的行动改变了，仿佛是“后悔”。
+        </p>
+        <p>
+            在这里，神因百姓受苦而“后悔”，表达了祂那慈父般的心肠——祂虽然管教，却不愿见死不救。这正是福音的奥秘：公义的神定意审判罪，却因着基督的代赎而对罪人“后悔”（转意），赐下拯救。
+        </p>
+    </div>
+
+    <h2>三、本章的中心思想</h2>
+    <p>
+        士师记第2章揭示了堕落人类历史的<strong>“悲剧性循环”</strong>：背道、受奴役、哀求、拯救、再次背道。这一循环的根源在于人忘记了神的恩典（“不知道耶和华”），并试图通过与世界妥协（拜巴力）来寻找安全感。本章宣告了依靠人类领袖（士师）的局限性，并从反面指向了对一位永恒救主和内心彻底更新的绝对需求。
+    </p>
+
+    <h2>四、我们与主相遇</h2>
+    <p>
+        <strong>这位神是怎样的神？</strong> 祂是<strong>守约施慈爱的神</strong>，即便在百姓背约时，祂仍因他们的哀声而生发怜悯。祂也是<strong>烈火般的神</strong>，绝不容忍属灵的淫乱，必追讨罪恶直到满足公义。祂是<strong>主权的神</strong>，既能兴起士师施行拯救，也能利用仇敌施行管教。
+    </p>
+    <p>
+        <strong>这章经文如何指向基督？</strong> 这一章中的“耶和华的使者”就是旧约中的基督，祂来宣读盟约的判决。而士师作为“拯救者”，是基督的预表。但士师只能带来暂时的和平，且他们自己也会死。这让人渴望那位“永远长存”的大祭司和君王——耶稣基督。祂一次献上，不仅拯救我们脱离仇敌的手，更赐下圣灵，打破了罪恶循环的权势，使我们能从心里顺服神。
+    </p>
+
+    <h2>五、作者对原初读者的信息</h2>
+    <p>
+        对于生活在被掳或受压迫时期的以色列读者，这一章解释了他们苦难的根本原因：不是耶和华无力保护，而是他们离弃了耶和华。这是对历史的深刻反省。作者在告诉他们：只要你们还在拜偶像，灾祸就不会停止；但只要你们回转呼求，神的怜悯依然存留。这是呼唤悔改的号角。
+    </p>
+
+    <h2>六、今日生命应用</h2>
+    <p>
+        <strong>1. 传承信仰的紧迫感：</strong> 我们的孩子是否“知道耶和华”？这里的“知道”不是指能背诵金句，而是指与神有真实的生命连结。父母们，不要让你的家庭出现信仰的断层，这是你最重要的事业。
+    </p>
+    <p>
+        <strong>2. 识破“巴力”的现代伪装：</strong> 今天的巴力不再叫巴力，它叫“成功”、“财富”、“享乐”。当我们认为必须在信仰上妥协才能在社会上生存时，我们就在拜巴力了。要警醒，这些假神最终会成为你的网罗。
+    </p>
+    <p>
+        <strong>3. 打破罪的循环：</strong> 你是否发现自己陷在“犯罪-认罪-再犯罪”的怪圈中？不要只在“波金”流泪，要在基督里寻求得胜的能力。只有依靠圣灵治死身体的恶行，我们才能跳出士师记的悲剧循环。
+    </p>
+
+    <div class="footer">
+        Soli Deo Gloria | 唯独荣耀归给神
+    </div>
+
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>士师记 第三章：试炼的战场与奇异的拯救</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root { 
+    --bg-color: #F7F5F0; 
+    --text-color: #2b2b2b; 
+    --accent-color: #8B3A3A; 
+    --accent-light: #F2E6E6; 
+    --secondary-text: #666055; 
+    --scripture-bg: #FFFFFF; 
+    --scripture-border: #D8D0C5;
+    --meditation-bg: #F4F4F4; 
+    --meditation-text: #555;
+    --font-main: 'Noto Serif SC', 'Songti SC', serif; 
+    --font-sans: 'Noto Sans SC', sans-serif; 
+}
+
+body { 
+    background-color: var(--bg-color); 
+    color: var(--text-color); 
+    font-family: var(--font-main); 
+    line-height: 2.3; 
+    font-size: 21px; 
+    margin: 0; 
+    padding: 0; 
+    background-image: linear-gradient(#F7F5F0 1px, transparent 1px), linear-gradient(90deg, #F7F5F0 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.container { 
+    max-width: 900px; 
+    margin: 80px auto; 
+    padding: 70px 60px; 
+    background-color: #fff;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+    border-radius: 2px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 90px;
+    border-bottom: 3px solid var(--accent-color);
+    padding-bottom: 50px;
+}
+
+h1 { 
+    font-family: var(--font-main); 
+    font-size: 3.4rem; 
+    font-weight: 900; 
+    margin-bottom: 1.2rem; 
+    color: #1a1a1a; 
+    letter-spacing: -1.5px; 
+    line-height: 1.1;
+}
+
+.subtitle { 
+    font-family: var(--font-sans); 
+    font-size: 1.4rem; 
+    color: var(--accent-color); 
+    letter-spacing: 4px; 
+    text-transform: uppercase; 
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+h2 { 
+    font-family: var(--font-sans); 
+    font-size: 1.6rem; 
+    font-weight: 700; 
+    margin-top: 6rem; 
+    margin-bottom: 3rem; 
+    color: #000;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+h3 { 
+    font-family: var(--font-main); 
+    font-size: 1.45rem; 
+    font-weight: 700; 
+    margin-top: 4.5rem; 
+    margin-bottom: 2rem; 
+    color: #333; 
+    border-left: 5px solid var(--accent-color);
+    padding-left: 20px;
+}
+
+.scripture-box { 
+    background-color: var(--scripture-bg); 
+    padding: 40px 45px; 
+    margin: 45px -30px 40px -30px; 
+    border-top: 1px solid var(--scripture-border);
+    border-bottom: 1px solid var(--scripture-border);
+    font-family: var(--font-main); 
+    font-size: 1.08em; 
+    color: #4a4a4a; 
+    line-height: 2.1; 
+    text-align: justify; 
+}
+
+.exegesis-title {
+    font-family: var(--font-sans);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-top: 30px;
+    margin-bottom: 25px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    border-bottom: 2px solid #e0d0b0;
+    padding-bottom: 3px;
+}
+
+p {
+    margin-bottom: 2rem;
+    text-align: justify;
+    color: #2c2c2c;
+    text-indent: 2em; 
+}
+
+strong {
+    color: var(--accent-color);
+    font-weight: 700;
+}
+
+.meditation-block { 
+    background-color: var(--meditation-bg); 
+    padding: 35px 45px; 
+    margin: 50px 0; 
+    font-family: var(--font-main);
+    color: var(--meditation-text);
+    font-style: italic;
+    border-left: 4px solid #ccc;
+}
+
+.meditation-header { 
+    font-family: var(--font-sans); 
+    font-size: 0.95rem; 
+    font-weight: 700; 
+    color: #777; 
+    text-transform: uppercase; 
+    letter-spacing: 2.5px; 
+    display: block; 
+    margin-bottom: 15px;
+    text-indent: 0;
+}
+
+.qa-box { 
+    background-color: #fffaf5; 
+    border: 1px solid #efe5d5;
+    border-left: 5px solid #c2b299; 
+    padding: 40px; 
+    margin: 50px 0; 
+}
+
+.qa-title { 
+    font-family: var(--font-sans); 
+    font-weight: 700; 
+    color: var(--accent-color); 
+    margin-bottom: 20px; 
+    font-size: 1.2em; 
+    text-indent: 0;
+}
+
+.disclaimer { 
+    font-size: 12px; 
+    color: #aaa; 
+    text-align: center; 
+    margin-bottom: 80px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.footer { 
+    margin-top: 120px; 
+    padding-top: 50px; 
+    border-top: 1px solid #eee; 
+    font-family: var(--font-main); 
+    font-size: 1.25rem; 
+    color: var(--accent-color); 
+    text-align: center; 
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+@media (max-width: 600px) { 
+    .container { padding: 40px 25px; margin: 0; width: 100%; box-sizing: border-box;} 
+    h1 { font-size: 2.4rem; } 
+    body { font-size: 19px; } 
+    .scripture-box { margin: 30px 0; padding: 25px; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="disclaimer">
+        基于中文和合本圣经 · 改革宗神学视角 · AI 辅助生成
+    </div>
+
+    <header>
+        <h1>士师记 第三章</h1>
+        <div class="subtitle">试炼的战场与奇异的拯救</div>
+    </header>
+
+    <h2>一、上下文关联：从神学总论到历史实战</h2>
+    <p>
+        前两章为《士师记》奠定了宏大的神学基础：以色列人因背约而陷入“离弃神-受苦-呼求-拯救”的循环。第3章则将这一神学框架落实到具体的历史叙事中。如果说第2章是医生对病情的诊断书，那么第3章就是前三个具体的病例报告。
+    </p>
+    <p>
+        本章介绍了头三位士师：俄陀聂、以笏和珊迦。这三位士师的记载呈现出一种奇特的递进：俄陀聂是标准的、理想的士师（来自犹大支派，迦勒家族）；以笏是有身体缺陷、使用诡计的士师（来自便雅悯支派）；而珊迦则是一个背景模糊、使用农具的士师。这暗示了神拯救手段的不可预测性：当完美的领袖不再出现时，神可以使用“残缺”的器皿来彰显祂的大能。这章经文向我们展示了神在看似绝望的历史废墟中，如何透过奇异的方式施行拯救。
+    </p>
+
+    <h2>二、逐段精解：试金石与拯救者</h2>
+
+    <!-- 第一段 -->
+    <h3>1. 存留迦南各族的神学目的 (3章1-6)</h3>
+
+    <div class="scripture-box">
+        耶和华留下这几族，为要试验那不曾知道与迦南争战之事的以色列人，好叫以色列的后代又知道又学习未曾晓得的战事。所留下的，就是非利士的五个首领和一切迦南人、西顿人，并住黎巴嫩山的希未人，从巴力黑们山直到哈马口。留下这几族，为要试验以色列人，知道他们肯听从耶和华藉摩西吩咐他们列祖的诫命不肯。以色列人竟住在迦南人、赫人、亚摩利人、比利洗人、希未人、耶布斯人中间，6娶他们的女儿为妻，将自己的女儿嫁给他们的儿子，并侍奉他们的神。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>留下的双重目的：</strong> 经文首先解释了为何神没有完全清除迦南人。这是一个奥秘的“神学双重性”。
+        第一，<strong>军事目的（1-2节）：</strong> “好叫以色列的后代又知道又学习……战事。” 神不希望祂的百姓成为温室里的花朵。在堕落的世界中，和平往往需要通过争战来维护。神留下列强，是为了训练新一代以色列人的属灵肌肉，让他们在实战中学习依靠神。
+        第二，<strong>信仰目的（4节）：</strong> “为要试验以色列人……肯听从……不肯。” 这是一个盟约的试金石。环境的艰难是为了显明人内心的真实光景。没有诱惑，就没有顺服的实底。神允许异教文化存在于以色列周围，正是为了试验他们是否对耶和华专一。
+    </p>
+    <p>
+        <strong>试验的彻底失败：</strong> 第5-6节报告了以色列人在这场考试中的成绩单——零分。经文用三个递进的动作描述了堕落的轨迹：
+        1. <strong>“住在……中间”：</strong> 失去了分别。他们不再是征服者，而是邻居。
+        2. <strong>“娶……嫁”：</strong> 失去了界限。通婚不仅是社会关系的融合，更是盟约的背叛。在古代，婚姻往往伴随着宗教的接纳。
+        3. <strong>“侍奉他们的神”：</strong> 失去了灵魂。这是通婚的必然结果。所罗门后来的失败也是源于此。
+        以色列人没有把迦南人当作训练信心的“陪练”，反而把他们当作了效法的对象。他们不仅没有在试炼中站立，反而完全被同化。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        神量给你环境中的困难、诱惑或“难缠的人”，不是为了打倒你，而是为了训练你。那是你的“迦南人”，是你属灵的练兵场。不要总是求神挪去环境，而要问神：“你要藉着这个环境教导我什么战事？” 警惕与世界的“联姻”，当我们开始羡慕世人的生活方式时，离“侍奉他们的神”就不远了。
+    </div>
+
+    <!-- 第二段 -->
+    <h3>2. 俄陀聂：模范士师的兴起 (3章7-11)</h3>
+
+    <div class="scripture-box">
+        以色列人行耶和华眼中看为恶的事，忘记耶和华他们的　神，去侍奉诸巴力和亚舍拉。所以，耶和华的怒气向以色列人发作，就把他们交在美索不达米亚王古珊利萨田的手中。以色列人服侍古珊利萨田八年。以色列人呼求耶和华的时候，耶和华就为他们兴起一位拯救者救他们，就是迦勒兄弟，基纳斯的儿子俄陀聂。耶和华的灵降在他身上，他就作了以色列的士师，出去争战。耶和华将美索不达米亚王古珊利萨田交在他手中，他便胜了古珊利萨田。于是国中太平四十年。基纳斯的儿子俄陀聂死了。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>标准的循环模式：</strong> 俄陀聂的故事短小精悍，却包含了士师记循环的所有标准要素：行恶 -> 神怒（受苦） -> 呼求 -> 兴起拯救者 -> 得胜 -> 太平。这是全书的“样板戏”，展示了最理想的拯救模式。
+    </p>
+    <p>
+        <strong>双倍的邪恶与圣灵的大能：</strong> 压迫者的名字极具讽刺意味——“古珊利萨田”。在希伯来文中，“利萨田”的意思是“双倍的邪恶”。这意味着以色列人遭遇了极其黑暗、残暴的统治，这是对他们“行耶和华眼中看为恶的事”的报应（罪恶带来邪恶的管教）。
+        然而，拯救的转折点在于：“耶和华的灵降在他身上”。这是士师记中第一次提到圣灵的降临。在旧约中，圣灵的降临通常是赐予领袖超自然的能力、智慧或军事统帅力，以完成特定的救赎任务。
+    </p>
+    <p>
+        <strong>信心的传承者：</strong> 俄陀聂并非无名之辈，他是信心英雄迦勒的侄子（或兄弟），曾在约书亚时代攻取底璧城（1章13节）。神兴起他，表明神记念那个忠心的世代。他是犹大支派的狮子，是士师中最“正统”的一位。他的得胜带来了四十年的太平，这是一个完整的世代。这段记载告诉我们，真正的拯救不在于军事策略，而在于神的灵与被神使用的人。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        即使面对“双倍邪恶”的仇敌，只要有“耶和华的灵”同在，得胜就是确定的。我们今天不需要等到一位政治强人来拯救，我们需要的是圣灵在我们生命中的掌权。当圣灵降临，软弱的人也能成为大能的勇士。你是否在困境中呼求圣灵的充满？
+    </div>
+
+    <!-- 第三段 -->
+    <h3>3. 以笏：左手便利的刺客 (3章12-30)</h3>
+
+    <div class="scripture-box">
+        以色列人又行耶和华眼中看为恶的事，耶和华就使摩押王伊矶伦强盛，攻击以色列人。伊矶伦招聚亚扪人和亚玛力人，去攻打以色列人，占据棕树城。于是以色列人服侍摩押王伊矶伦十八年。
+        以色列人呼求耶和华的时候，耶和华就为他们兴起一位拯救者，就是便雅悯人基拉的儿子以笏，他是左手便利的。以色列人托他送礼物给摩押王伊矶伦。以笏打了一把两刃的剑，长一肘，带在右腿上衣服里面。他将礼物献给摩押王伊矶伦，原来伊矶伦极其肥胖。以笏献完礼物，便将抬礼物的人打发走了。自己却从靠近吉甲凿石之地回来，说：“王啊，我有一件机密事奏告你。”王说：“回避吧！”于是左右侍立的人都退去了。以笏来到王面前，王独自一人坐在凉楼上。以笏说：“我奉　神的命报告你一件事。”王就从座位上站起来。以笏便伸左手，从右腿上拔出剑来，刺入王的肚腹，连剑把都刺进去了。剑被肥肉夹住，他没有从王的肚腹拔出来，且穿通了后身。以笏就出到游廊，将楼门尽都关锁。
+        以笏出来之后，王的仆人到了，看见楼门关锁，就说：“他必是在楼上大解。”他们等烦了，见仍不开楼门，就拿钥匙开了。不料，他们的主人已死，倒在地上。
+        他们耽延的时候以笏就逃跑了，经过凿石之地，逃到西伊拉。到了，就在以法莲山地吹角。以色列人随着他下了山地，他在前头引路，对他们说：“你们随我来，因为耶和华已经把你们的仇敌摩押人交在你们手中。”于是他们跟着他下去，把守约旦河的渡口，不容摩押一人过去。那时击杀了摩押人约有一万，都是强壮的勇士，没有一人逃脱。这样摩押就被以色列人制伏了。国中太平八十年。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>神圣的讽刺与反转：</strong> 如果俄陀聂是正统英雄，以笏就是一位“非典型”刺客。他是便雅悯人，“便雅悯”原意是“右手之子”，但经文特意指出他是“左手便利的”（原文可能指右手有残疾或受限，只能用左手）。这是一个巨大的讽刺：神使用一个“残疾的右手之子”，击败了强大的王。
+        他的对手伊矶伦，名字意为“小牛犊”，经文形容他“极其肥胖”。这不仅是生理描写，更是神学嘲讽——这头肥硕的牛犊已经养肥了，正等待宰杀。
+    </p>
+    <p>
+        <strong>独特的行刺细节：</strong> 经文不厌其烦地描写了行刺的细节：特制的短剑（两刃，方便刺入和拔出）、藏在右腿（通常卫兵只搜左腿，因人多用右手拔剑）、左手拔剑的动作。这显示了以笏的精心策划。但他并未以此夸口，他对王说：“我奉神的命（Davar Elohim，神的话语/事情）报告你。” 这把剑，实际上就是神对这位暴君的审判之语。剑刺入肥肉甚至连剑把都进去，以及“穿通后身”（可能指粪便流出），构成了极具羞辱性的死亡画面。
+    </p>
+    <p>
+        <strong>神的主权与人的智谋：</strong> 有人质疑以笏的手段是否充满欺诈。但在圣战的背景下，这被视为对神的忠诚和对仇敌的公义审判。以笏不仅是刺客，更是军事统帅。他吹角召集以色列人，封锁约旦河渡口，全歼摩押军队。这表明个人的英勇行动必须引向群体的得胜。神使用了一个身体可能有缺陷、手段并不“光明正大”的人，拯救了以色列。这打破了我们对“属灵伟人”的刻板印象。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        神从不被我们的限制所限制。你是否因为自己的“缺陷”（学历、背景、性格、甚至身体）而觉得无法被神使用？在神手中，你的“左手便利”可能正是击杀仇敌的秘密武器。关键不在于你有什么，而在于你是否愿意将你仅有的（哪怕是一把自制的短剑）献给神，去完成看似不可能的任务。
+    </div>
+
+    <!-- 第四段 -->
+    <h3>4. 珊迦：农夫的拯救 (3章31)</h3>
+
+    <div class="scripture-box">
+        以笏之后，有亚拿的儿子珊迦，他用赶牛的棍子打死六百非利士人。他也救了以色列人。
+    </div>
+
+    <div class="exegesis-title">本段精解</div>
+
+    <p>
+        <strong>微不足道的器皿：</strong> 珊迦的记载只有一节经文，却震撼人心。他的背景极其模糊，“亚拿的儿子”甚至可能暗示迦南背景（亚拿是迦南战神），或者仅仅是一个家族名。他没有显赫的家世，没有正规的军队，甚至没有像样的兵器。
+    </p>
+    <p>
+        <strong>赶牛棍的神迹：</strong> 他手中的武器是“赶牛的棍子”——一根长木棍，一头有尖刺用于赶牛，另一头有铲子用于除泥。这完全是农具，不是兵器。然而，就是这样一个人，用这样一件卑微的工具，击杀了六百个全副武装的非利士人（当时非利士人已掌握铁器技术）。
+    </p>
+    <p>
+        这节经文传递了一个强有力的神学信息：<strong>神拯救人，不在此次人数的多少，也不在乎兵器的精良。</strong> 珊迦可能只是在耕地时遇到了非利士人的侵袭，他顺手拿起手边的工具，凭着对神的信靠奋起反抗。他没有等待“装备齐全”才去争战，他在现有的岗位上，用现有的资源，带出了巨大的拯救。
+    </p>
+
+    <div class="meditation-block">
+        <span class="meditation-header">默想与省察</span>
+        不要等到“万事俱备”才为主做工。你手中有什么？也许只是一根“赶牛棍”（一项普通的技能、一点微薄的积蓄、一个不起眼的职位）。但在神手中，这足以击败仇敌。神看重的不是你手中的工具，而是你信心的胆量。在你的职场和生活中，拿起你的赶牛棍，为真理而战吧！
+    </div>
+
+    <div class="qa-box">
+        <div class="qa-title">信仰解惑：神为何要“试验”以色列人？神不知道他们的心吗？</div>
+        <p>
+            这在神学上是一个重要的问题。神当然是全知的，祂不需要通过试验来获取信息。
+        </p>
+        <p>
+            首先，试验是为了<strong>显明（Revelation）</strong>。试验不是为了让神知道，而是为了让人知道自己内心的真实光景。以色列人可能自以为忠诚，只有在面对迦南人的诱惑时，他们内心的贪婪和淫乱才会被暴露出来。这就像炼金，火是为了显出杂质。
+        </p>
+        <p>
+            其次，试验是为了<strong>训练（Training）</strong>。经文说要让他们“学习战事”。信心就像肌肉，必须在阻力中才能通过训练而强壮。如果没有迦南人的挑战，以色列人的信心就会退化为宗教的遗传，而非鲜活的依靠。
+        </p>
+        <p>
+            最后，这是<strong>盟约的验证</strong>。神要向宇宙见证，谁是真正属祂的人。真正的信心是经得起火炼的。对于今天的信徒，苦难和试探也是神手中的试金石，旨在炼净我们的信心，使其比金子更显宝贵（彼得前书1章7节）。
+        </p>
+    </div>
+
+    <h2>三、本章的中心思想</h2>
+    <p>
+        士师记第3章展示了<strong>“神在背道时代的多样化拯救”</strong>。尽管以色列人屡次背约、行恶，神却信实地通过试炼（留下迦南人）来管教他们，并通过兴起各样不同（甚至卑微、残缺）的士师来拯救他们。这章经文彻底粉碎了人对自身力量和道德的自信，将聚光灯完全打在神主权的恩典上——唯有耶和华是真正的拯救者。
+    </p>
+
+    <h2>四、我们与主相遇</h2>
+    <p>
+        <strong>这位神是怎样的神？</strong>
+        祂是<strong>掌管历史的主</strong>，既能使摩押王强盛来管教子民，也能兴起刺客来终结暴政。祂是<strong>不拘一格的神</strong>，祂使用名门之后，也使用残疾人和农夫。祂是<strong>充满怜悯的神</strong>，只要百姓呼求，祂就预备拯救。
+    </p>
+    <p>
+        <strong>这章经文如何指向基督？</strong>
+        俄陀聂作为“模范士师”，预表了基督作为完美的君王，带来真正的太平。以笏作为“单枪匹马”的拯救者，预表了基督独自一人在十字架上击败了掌死权的魔鬼，释放了被奴役的百姓。珊迦用卑微的工具得胜，预表了福音借着“愚拙的道理”拯救世人。所有的士师都是影儿，指向那位终极的拯救者。
+    </p>
+
+    <h2>五、作者对原初读者的信息</h2>
+    <p>
+        对于生活在被掳或受压迫中的以色列人，这章经文传递了双重信息：
+        第一，<strong>认罪：</strong> 你们现在的苦难是因为离弃了耶和华，就像祖先服侍古珊利萨田和伊矶伦一样。
+        第二，<strong>盼望：</strong> 无论压迫多么深重（双倍的邪恶），无论你们多么软弱（像左手便利的人），只要回转呼求，神仍能兴起拯救者。这呼吁他们不要对环境绝望，而要对神生出活泼的盼望。
+    </p>
+
+    <h2>六、今日生命应用</h2>
+    <p>
+        <strong>1. 正视环境中的试炼：</strong>
+        不要抱怨你周围那些“未曾赶出”的困难或“难搞”的人。视他们为神量给你的训练课程，用来操练你的信心和圣洁。
+    </p>
+    <p>
+        <strong>2. 哪怕残缺也能被用：</strong>
+        不要因为自己的短板（学历、口才、身体、背景）而自卑。以笏和珊迦的故事告诉我们，神专门拣选世上软弱的，叫那强壮的羞愧。只要你愿意被神使用，你的“左手”和“赶牛棍”就是神迹的器皿。
+    </p>
+    <p>
+        <strong>3. 打破罪的循环：</strong>
+        如果你发现自己陷入了“犯罪-受苦-呼求-蒙恩-再犯罪”的怪圈，要明白神兴起环境是为了唤醒你。不要只求苦难离开，要求神彻底改变你的心，断绝与“迦南神像”的联系。
+    </p>
+
+    <div class="footer">
+        Soli Deo Gloria | 唯独荣耀归给神
+    </div>
+
+</div>
+</body>
+</html>
